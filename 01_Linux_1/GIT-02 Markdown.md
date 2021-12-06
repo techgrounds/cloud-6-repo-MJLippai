@@ -10,6 +10,7 @@ Markdown is een WYSIWYM vorm van een open-source Markup Language.
 -	Maak een document met je gekozen editor.
 ### Gebruikte bronnen
 https://atom.io/ -> Ik werkte al met Atom.io dus heb ik gekozen om hiermee verder te gaan.
+
 https://www.portent.com/blog/content/atom-markdown.htm - > Verschillende packages om Atom.io een betere Markdown editor te maken.
 
 ### Ervaren problemen
