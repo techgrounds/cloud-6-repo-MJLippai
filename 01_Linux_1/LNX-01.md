@@ -18,5 +18,5 @@ https://www.edx.org/course/introduction-to-linux (completed previously).
 No problems since I had to complete this exercise for the course mentioned above.
 
 ### Resultaat
-It was succesfull, please see screenshot :
+Task was succesfully completed, please see screenshot :
 ![LinuxVMinstallUbuntu](https://user-images.githubusercontent.com/95615509/144855527-41fee6b4-4042-4136-b4db-1e9159edacff.png)
