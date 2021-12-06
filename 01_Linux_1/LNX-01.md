@@ -1,5 +1,5 @@
-# [Installing a VM]
-[Geef een korte beschrijving van het onderwerp]
+# Installing a VM
+Virtual machines will allow us to use instances of linux to perform various tasks in different distributions, become familiar with them and complete exercises later in the course.
 
 ## Key-terms
 Virtual machine : makes it possible to run an instance of Linux on your on your own computer. 
@@ -18,4 +18,4 @@ https://www.edx.org/course/introduction-to-linux (completed previously).
 No problems since I had to complete this exercise for the course mentioned above.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+It was succesfull, please see screenshot "LinuxVMinstallUbuntu".
