@@ -1,23 +1,24 @@
-# Installing a VM
-Virtual machines will allow us to use instances of linux to perform various tasks in different distributions, become familiar with them and complete exercises later in the course.
+# Installatie van een VM
+Virtualisatie houdt in dat er (in software) een geabstraheerde complete machineomgeving wordt gecreëerd, waaronder eindgebruikerssoftware draait zonder de fysieke details van de machine waarop deze draait.
+
+Nu leren wij hoe een VM te creëren via Virtualization software. Ik gebruik bijvoorbeeld VMware.
 
 ## Key-terms
-Virtual machine : makes it possible to run an instance of Linux on your on your own computer. 
-Ubuntu : Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software. 
+Virtual machine : virtualizatie van een competer systeem.
+Ubuntu : Ubuntu is a Linux distributie gebaseerd op Debian and bestaat bijna helemaal uit open-source code. 
 
 ## Opdracht
 
-- Install an Ubuntu virtual machine on your laptop.
-- Once installation and setup are complete, take a snapshot of the VM. This will act as a checkpoint in case you break the machine on accident (or on       purpose).
-- Go to the terminal in your VM and type ‘whoami’. The terminal should show your username.
+- Installeren van een Ubuntu virtueele machine op mijn laptop.
+- Snapshot creëren van het VM.
+- Termal openen en 'whoami" typen en een screenshot maken waar je username zichtbaar is.
 
 ### Gebruikte bronnen
-https://www.edx.org/course/introduction-to-linux (completed previously) : One of the chapters is focused on walking you through the different options, one of which is the use of VMware.
-
+https://www.edx.org/course/introduction-to-linux (completed previously) : Een van de eerste hoofdstukken bescrijft verschillende methodes om een VM te creëren. Ik heb al toen gekozen om Ubuntu via VMware te intalleren.
 
 ### Ervaren problemen
-No problems since I had to complete this exercise for the course mentioned above.
+Geen probleem aangezien ik de bovengenoemde cursus al een aantal maanden geleden had voltooid.
 
 ### Resultaat
-Task was succesfully completed, please see screenshot :
+Alles is gelukt! Zie de volgende screenshot :
 ![LinuxVMinstallUbuntu](https://user-images.githubusercontent.com/95615509/144855527-41fee6b4-4042-4136-b4db-1e9159edacff.png)
