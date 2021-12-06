@@ -1,15 +1,25 @@
-# [Onderwerp]
-[Geef een korte beschrijving van het onderwerp]
+# Files en directories
+In deze opdracht gaan we leren om files te creëren en door de filesysteem van Ubuntu te navigeren met gebruik van "absolute" en "relative" paths.
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+Linux Filesytem : Linux heeft een Filesystem Hierarchy Standard. Dit zorgt ervoor dat er verschillende regels worden gevolgd zodat men makkelijker bestanden en mappen kunnen vinden.
+Absolute path: je gebruikt de voledige path vanaf de root directory tot waar je terecht wilt komen of iets veranderen.
+Relative path: je gebruikt een path alleen ten op zichte van welke directory je nu in zit.
 
 ## Opdracht
+- huidige map vaststellen
+- alle bestanden en mappen in je home map laten zien
+- nieuwe map 'techgrounds' aanmaken
+- een tekstbestand hier aanmaken die wat tekst bevat
+- navigeren van de filesysteem met gebruikt van absoluut en relatief paden 
+
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://www.edx.org/course/introduction-to-linux ->> de benodigde vaardigheden zijn allemaal here in deze gratis cursus te vinden.
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Geen problemen.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Alles is gelukt, zie het volgende beeld:
+
+![Filesendirectories](https://user-images.githubusercontent.com/95615509/144907257-79b90c58-4759-40eb-97d4-2cc57950869f.png)
