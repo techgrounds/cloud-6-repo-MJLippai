@@ -12,7 +12,8 @@ Ubuntu : Ubuntu is a Linux distribution based on Debian and composed mostly of f
 - Go to the terminal in your VM and type ‘whoami’. The terminal should show your username.
 
 ### Gebruikte bronnen
-https://www.edx.org/course/introduction-to-linux (completed previously).
+https://www.edx.org/course/introduction-to-linux (completed previously) : One of the chapters is focused on walking you through the different options, one of which is the use of VMware.
+
 
 ### Ervaren problemen
 No problems since I had to complete this exercise for the course mentioned above.
