@@ -26,15 +26,15 @@ Bij de eerste opdracht wou ik een if/else statement gebruiken zodat als het best
 ### Resultaat
 Succesvol, zie toegevoegde beelden:
 
-Opdracht 1.1
+Opdracht 1.1  
 ![newlinescript](https://user-images.githubusercontent.com/95615509/145101245-fd3ca62d-1fe3-4d44-b5f1-a5b2b93d5029.png)
 
-Opdracht 1.2
+Opdracht 1.2  
 ![newlinescript2](https://user-images.githubusercontent.com/95615509/145103453-fce2bd81-63f2-4a37-923d-ca4ff4408769.png)
 
-Opdracht 1.3
+Opdracht 1.3  
 ![apache2script](https://user-images.githubusercontent.com/95615509/145101267-b2c106a4-148f-4a9f-9951-2375ee9d077d.png)
 
-Opdracht 2
+Opdracht 2  
 ![random2variable2file](https://user-images.githubusercontent.com/95615509/145104373-03887098-3f03-4f5e-9da2-d5e1748d18e6.png)
 
