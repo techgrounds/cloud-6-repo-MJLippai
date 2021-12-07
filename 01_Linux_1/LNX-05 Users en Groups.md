@@ -21,4 +21,4 @@ Geen problemen.
 ### Resultaat
 Alles is gelukt, zie de toegevoegde screenshot:
 
-![Usersandgroups](https://user-images.githubusercontent.com/95615509/145000869-134bc1b7-d0ac-412b-a93a-a50dc6492213.png)
+![Usersandgroups](https://user-images.githubusercontent.com/95615509/145001095-30ae06d6-570f-4e6a-a98a-a556cd66de60.png)
