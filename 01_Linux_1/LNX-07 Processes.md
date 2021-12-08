@@ -26,6 +26,7 @@ Alles is gelukt, zie toegevoegde bestanden. Er zijn meerdere manieren om aangevr
 
 ![processes](../00_includes/lnx-07.1.png)  
 
+top command resultaat:  
 ![topgrep](../00_includes/lnx-07.2.png)  
 
 ![processstopped](../00_includes/lnx-07.3.png)
