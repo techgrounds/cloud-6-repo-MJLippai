@@ -5,13 +5,17 @@ Met cron jobs kan je specifieke commandos of processen uitvoeren op bepaalde tij
 [Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
 
 ## Opdracht
+- maak een Bash script die de huidige datum en tijd in een bestand in jouw home map bewaart
+- regitreer dit bestand in crontab op een manier dat hij elke minuut draait
+- maak een script dat de beschikbare ruimte op je hardschijf in een log bestand in 'var/logs' bewaart. Gebruik cron job zodat deze script elke week draait.
+
 ### Gebruikte bronnen
 https://www.edx.org/course/introduction-to-linux  
 https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-using-shell-script  
 https://www.howtogeek.com/409611/how-to-view-free-disk-space-and-disk-usage-from-the-linux-terminal/  
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Bij de laatste opdracht heb ik 'var/log' in plaats van 'var/logs' gebruikt aangezien 'log' al bestond.
 
 ### Resultaat
 Gelukt, zie toegevoegde beelden:
