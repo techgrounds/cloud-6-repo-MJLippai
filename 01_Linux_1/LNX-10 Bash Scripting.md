@@ -14,7 +14,10 @@ UFW : "uncomplicated firewall"-> een simpele firewall voor linux die waarmee mak
 - maak een script dat httpd package installeert, httpd dan activeert, en httpd start. Ten einde, je script moet de status van de httpd daemon op de terminal toont
 
 ## Opdracht 2
-- maak een script die een willekeurige nummer tussen de 1 en 10 kies, het in een variable bewaart, en dan aan een tekst bestand toevoegt
+- maak een script die een willekeurige nummer tussen de 1 en 10 kiest, het in een variable bewaart, en dan aan een tekst bestand toevoegt
+
+## Opdracht 3
+- maak een script die een willekeurige nummer tussen de 1 en 10 kiest, het in een variable bewaart, en dan aan een tekst bestand toevoegt alleen als hij groter dan 5 is. Anders moet er een zin worden toegevoegd in plaats van een nummer aan dezelfde bestand.
 
 ### Gebruikte bronnen
 https://linuxize.com/post/how-to-add-directory-to-path-in-linux/  
