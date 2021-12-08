@@ -13,7 +13,8 @@ Leren om met verschillende commands tekst bestanden te creëren en aanpassen.
 
 ### Gebruikte bronnen
 https://www.edx.org/course/introduction-to-linux -> alles komt hierin voor.   
-https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/ 
+https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/  
+https://linuxhint.com/linux-pipe-command-examples/
 
 ### Ervaren problemen
 Geen problemen.
