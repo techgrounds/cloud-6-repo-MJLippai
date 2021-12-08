@@ -2,7 +2,8 @@
 Met Bash scripting kan je meerdere commandos in een bestand scrijven. Deze kunnen dan allemaal worden uitgevoerd door deze bestand dan uit te voeren.
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+PATH variable : mappen die worden gecheckt door de OS om de programma te kunnen draaien
+
 
 ## Opdracht 1
 - maak een nieuwe map die "scripts" heet. Plaats alle scripts hierin.
