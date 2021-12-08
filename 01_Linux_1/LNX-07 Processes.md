@@ -24,8 +24,8 @@ Geen problemen tegengekomen.
 ### Resultaat
 Alles is gelukt, zie toegevoegde bestanden. Er zijn meerdere manieren om aangevraagde informatie te tonen in de terminal:
 
-![processes](https://user-images.githubusercontent.com/95615509/145040379-db2f5b1d-6dcd-4c0e-a972-9c18d507fb0c.png)
+![processes](../00_includes/lnx-07.1.png)  
 
-![topgrep](https://user-images.githubusercontent.com/95615509/145040386-a5af6574-fc34-4157-a2b6-2c41236a6c4e.png)
+![topgrep](../00_includes/lnx-07.2.png)  
 
-![processstopped](https://user-images.githubusercontent.com/95615509/145040402-936d2056-b670-443e-ab66-b3f782e597fa.png)
+![processstopped](../00_includes/lnx-07.3.png)
