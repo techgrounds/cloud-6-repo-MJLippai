@@ -24,4 +24,4 @@ Opdracht 2.1
 ![availabledisk](https://user-images.githubusercontent.com/95615509/145196763-1ead64ae-8ac2-4014-84c6-14564b2b8fa9.png)  
 
 Opdracht 2.2  
-![crontabavaildisk](https://user-images.githubusercontent.com/95615509/145197096-48066541-0b70-4354-b13d-68297143a25d.png)  
+![crontabavaildisk](https://user-images.githubusercontent.com/95615509/145197823-7570770d-eef3-4745-8b51-41cd96e487d8.png)
