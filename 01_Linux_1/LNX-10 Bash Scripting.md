@@ -14,11 +14,11 @@ Met Bash scripting kan je meerdere commandos in een bestand scrijven. Deze kunne
 - maak een script die een willekeurige nummer tussen de 1 en 10 kies, het in een variable bewaart, en dan aan een tekst bestand toevoegt
 
 ### Gebruikte bronnen
-https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
-https://stackoverflow.com/questions/1262903/add-to-file-if-exists-and-create-if-not
-https://appuals.com/set-bash-variables-random-numbers/
-https://stackoverflow.com/questions/8988824/generating-random-number-between-1-and-10-in-bash-shell-script
-https://linuxize.com/post/bash-if-else-statement/
+https://linuxize.com/post/how-to-add-directory-to-path-in-linux/  
+https://stackoverflow.com/questions/1262903/add-to-file-if-exists-and-create-if-not  
+https://appuals.com/set-bash-variables-random-numbers/  
+https://stackoverflow.com/questions/8988824/generating-random-number-between-1-and-10-in-bash-shell-script  
+https://linuxize.com/post/bash-if-else-statement/  
 
 ### Ervaren problemen
 Bij de eerste opdracht wou ik een if/else statement gebruiken zodat als het bestand nog niet bestond dat hij voor het eerst zou worden aangemaakt (met een unique zin). Was in het begin wat moeilijk om uit te komen maar het is uiteindelijk wel gelukt met wat googlen. Daarna kon ik zelfde syntax gedeeltelijk in opdracht 2 gebruiken.
