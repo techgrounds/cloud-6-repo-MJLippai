@@ -1,5 +1,5 @@
 # Introductie van Markdown en Markup editors
-Markdown is een WYSIWYM vorm van een open-source Markup Language. 
+Markdown is een WYSIWYM type van een open-source Markup Language. 
 
 ## Key-terms
 - Markdown = een open-source Markup Language.
