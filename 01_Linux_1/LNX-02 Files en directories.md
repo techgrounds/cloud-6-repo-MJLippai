@@ -22,4 +22,4 @@ Geen problemen.
 ### Resultaat
 Alles is gelukt, zie het volgende beeld:
 
-![Filesendirectories](https://user-images.githubusercontent.com/95615509/144907257-79b90c58-4759-40eb-97d4-2cc57950869f.png)
+![Filesendirectories](../00_includes/lnx-02.png)
