@@ -21,4 +21,4 @@ Geen probleem aangezien ik de bovengenoemde cursus al een aantal maanden geleden
 
 ### Resultaat
 Alles is gelukt! Zie de volgende screenshot :
-![LinuxVMinstallUbuntu](https://user-images.githubusercontent.com/95615509/144855527-41fee6b4-4042-4136-b4db-1e9159edacff.png)
+![LinuxVMinstallUbuntu](../00_includes/lnx-01op1.png)
