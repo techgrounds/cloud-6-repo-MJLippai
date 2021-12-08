@@ -14,7 +14,9 @@ Relative path: je gebruikt een path alleen ten op zichte van welke directory je 
 - navigeren van de filesysteem met gebruikt van absoluut en relatief paden 
 
 ### Gebruikte bronnen
-https://www.edx.org/course/introduction-to-linux ->> de benodigde vaardigheden zijn allemaal here in deze gratis cursus te vinden.
+https://www.edx.org/course/introduction-to-linux ->> de benodigde vaardigheden zijn allemaal here in deze gratis cursus te vinden.  
+https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/  
+https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/
 
 ### Ervaren problemen
 Geen problemen.
