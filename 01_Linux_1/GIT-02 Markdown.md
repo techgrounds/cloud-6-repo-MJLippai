@@ -18,4 +18,4 @@ Geen problemen.
 ### Resultaat
 Opdracht is gelukt, zie hierbij de volgende screenshot:
 
-![MarkdownOnAtom](https://user-images.githubusercontent.com/95615509/144901340-27a33517-58e1-4842-ad99-6684d669db73.png)
+![MarkdownOnAtom](../00_includes/git-02op1.png)
