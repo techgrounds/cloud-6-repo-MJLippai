@@ -21,4 +21,4 @@ Geen problemen.
 ### Resultaat
 Alles is gelukt, zie de toegevoegde screenshot:
 
-![Usersandgroups](https://user-images.githubusercontent.com/95615509/145002552-d76cd9f1-4c40-4dec-ad12-948f5e30940b.png)
+![Usersandgroups](../00_includes/lnx-05.png)
