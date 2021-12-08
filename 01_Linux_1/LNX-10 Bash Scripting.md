@@ -34,7 +34,7 @@ Opdracht 1.2
 ![newlinescript2](https://user-images.githubusercontent.com/95615509/145103453-fce2bd81-63f2-4a37-923d-ca4ff4408769.png)
 
 Opdracht 1.3  
-![apache2script](https://user-images.githubusercontent.com/95615509/145101267-b2c106a4-148f-4a9f-9951-2375ee9d077d.png)
+![apache2script](https://user-images.githubusercontent.com/95615509/145177645-bca737b1-c8bc-41cc-b140-7c064c33fc97.png)
 
 Opdracht 2  
 ![random2variable2file](https://user-images.githubusercontent.com/95615509/145104373-03887098-3f03-4f5e-9da2-d5e1748d18e6.png)
