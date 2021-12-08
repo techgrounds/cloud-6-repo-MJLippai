@@ -17,13 +17,13 @@ https://www.howtogeek.com/409611/how-to-view-free-disk-space-and-disk-usage-from
 Gelukt, zie toegevoegde beelden:
 
 Opdracht 1.1  
-![datecronscript](https://user-images.githubusercontent.com/95615509/145189772-94b6fd20-fb3f-4f09-952c-0cfb9b0d504c.png)  
+![datecronscript](../00_includes/lnx-11op1.1.png)
 
 Opdracht 1.2  
-![cronjab](https://user-images.githubusercontent.com/95615509/145189816-2f70bde6-93d7-467d-901f-86f4a8829953.png)  
+![cronjab](../00_includes/lnx-11op1.2.png)
 
 Opdracht 2.1  
-![availabledisk](https://user-images.githubusercontent.com/95615509/145196763-1ead64ae-8ac2-4014-84c6-14564b2b8fa9.png)  
+![availabledisk](../00_includes/lnx-11op2.1.png)
 
 Opdracht 2.2  
-![crontabavaildisk](https://user-images.githubusercontent.com/95615509/145197823-7570770d-eef3-4745-8b51-41cd96e487d8.png)
+![crontabavaildisk](../00_includes/lnx-11op2.2.png)
