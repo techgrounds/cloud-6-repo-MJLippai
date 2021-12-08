@@ -2,7 +2,8 @@
 Met cron jobs kan je specifieke commandos of processen uitvoeren op bepaalde tijden.
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+crontab : hiermee kan je bash scripts inplannen zodat ze op bepaalde or periodieke tijden draaien.
+df : "disk filesystem" -> hiermee kan informatie laten tonen van de verschillende filesystemen die verbonden zijn aan je "tree".
 
 ## Opdracht
 - maak een Bash script die de huidige datum en tijd in een bestand in jouw home map bewaart
@@ -15,7 +16,9 @@ https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-u
 https://www.howtogeek.com/409611/how-to-view-free-disk-space-and-disk-usage-from-the-linux-terminal/  
 
 ### Ervaren problemen
-Bij de laatste opdracht heb ik 'var/log' in plaats van 'var/logs' gebruikt aangezien 'log' al bestond.
+Bij de laatste opdracht heb ik 'var/log' in plaats van 'var/logs' gebruikt aangezien 'log' al bestond.  
+Bij het bewaren van de beschikbare ruimte krijg ik eerst te veel info, dan heb ik een manier gevonden om de resultaten van de "-x squashfs" option van "df" om deze filesystemen te schuilen zodat het netter eruit zag. Ik heb ook de datum hierbij laten tonen voor een betere overzicht.
+
 
 ### Resultaat
 Gelukt, zie toegevoegde beelden:
