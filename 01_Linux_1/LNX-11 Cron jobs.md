@@ -14,14 +14,14 @@ https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-u
 ### Resultaat
 Gelukt, zie toegevoegde beelden:
 
-Opdracht 1.1
+Opdracht 1.1  
 ![datecronscript](https://user-images.githubusercontent.com/95615509/145189772-94b6fd20-fb3f-4f09-952c-0cfb9b0d504c.png)  
 
-Opdracht 1.2
-![cronjab](https://user-images.githubusercontent.com/95615509/145189816-2f70bde6-93d7-467d-901f-86f4a8829953.png)
+Opdracht 1.2  
+![cronjab](https://user-images.githubusercontent.com/95615509/145189816-2f70bde6-93d7-467d-901f-86f4a8829953.png)  
 
 Opdracht 2.1  
-![availabledisk](https://user-images.githubusercontent.com/95615509/145196763-1ead64ae-8ac2-4014-84c6-14564b2b8fa9.png)
+![availabledisk](https://user-images.githubusercontent.com/95615509/145196763-1ead64ae-8ac2-4014-84c6-14564b2b8fa9.png)  
 
-Opdracht 2.2
-![availabledisk](https://user-images.githubusercontent.com/95615509/145196977-76538f6b-2835-482a-b747-391a52b5448c.png)
+Opdracht 2.2  
+![crontabavaildisk](https://user-images.githubusercontent.com/95615509/145197096-48066541-0b70-4354-b13d-68297143a25d.png)  
