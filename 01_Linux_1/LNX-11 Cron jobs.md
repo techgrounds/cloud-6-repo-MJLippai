@@ -1,15 +1,21 @@
-# [Onderwerp]
-[Geef een korte beschrijving van het onderwerp]
+# Cron jobs
+Met cron jobs kan je specifieke commandos of processen uitvoeren op bepaalde tijden.
 
 ## Key-terms
 [Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
 
 ## Opdracht
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-using-shell-script
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Gelukt, zie toegevoegde beelden:
+
+Opdracht 1.1
+![datecronscript](https://user-images.githubusercontent.com/95615509/145189772-94b6fd20-fb3f-4f09-952c-0cfb9b0d504c.png)  
+
+Opdracht 1.2
+![cronjab](https://user-images.githubusercontent.com/95615509/145189816-2f70bde6-93d7-467d-901f-86f4a8829953.png)
