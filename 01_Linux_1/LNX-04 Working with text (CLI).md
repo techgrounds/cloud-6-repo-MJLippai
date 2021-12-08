@@ -21,4 +21,4 @@ Geen problemen.
 ### Resultaat
 Alles is gelukt, zie hierbij het volgende bestand: 
 
-![Workingwithtext](https://user-images.githubusercontent.com/95615509/144912282-7974c5a4-2104-4842-a14c-ea6c6c84f88d.png)
+![Workingwithtext](../00_includes/lnx-04.png)
