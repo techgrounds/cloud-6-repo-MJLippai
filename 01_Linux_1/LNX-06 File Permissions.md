@@ -30,4 +30,4 @@ all users : r-- = read
 Alles is gelukt, zie hierbij de toegevoegde screenshot:
 
 
-![Filepermissions](https://user-images.githubusercontent.com/95615509/145033588-49c5c9b8-43e2-4689-aee6-b912818a479e.png)
+![Filepermissions](../00_includes/lnx-06.png)
