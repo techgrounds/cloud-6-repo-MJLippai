@@ -3,6 +3,8 @@ Met Bash scripting kan je meerdere commandos in een bestand scrijven. Deze kunne
 
 ## Key-terms
 PATH variable : mappen die worden gecheckt door de OS om de programma te kunnen draaien
+RANDOM : een shell variable waarmee je willekeurige nummers kan opvragen
+UFW : "uncomplicated firewall"-> een simpele firewall voor linux die waarmee makkelijk wordt om toegang te geven of negeren op basis van regels die je op moet stellen
 
 
 ## Opdracht 1
