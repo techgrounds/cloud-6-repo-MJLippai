@@ -5,7 +5,7 @@ Leren om met verschillende commands tekst bestanden te creëren en aanpassen.
 **CLI** : de "command line interface" of ook de terminal genoemd waar je zonder GUI heel exacte werkingen kunt uitvoeren.  
 **echo** : een command in linux waarmee je tekst bestanden kunt maken en aanpassen.  
 **cat** : staat voor concatenate. Je kunt hiermee tekst van een of meerdere bestanden tegelijkertijd naar de terminal printen. Ook kan je files creëren of copiëren.  
-**piping commands** : combineren van meerdere commandos om specifieke resultaten te kunnen produceren.  
+**piping commands with "|"** : combineren van meerdere commandos om specifieke resultaten te kunnen produceren.  
 
 ## Opdracht
 - gebruikt echo om een nieuwe zin toe te voegen aan een bestande file. Nieuwe zin moet 'techgrounds' bevatten'.
