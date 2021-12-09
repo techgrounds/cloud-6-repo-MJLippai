@@ -14,7 +14,7 @@ chmod : commando waarmee het mogelijk wordt om rechten in verband met bestanden 
 - verander welke groep eigenaar is naar een andere groep
 
 ### Gebruikte bronnen
-https://chmod-calculator.com/
+https://chmod-calculator.com/  
 https://www.edx.org/course/introduction-to-linux
 
 ### Ervaren problemen
