@@ -6,6 +6,7 @@ Leren om met verschillende commands tekst bestanden te creëren en aanpassen.
 **echo** : een command in linux waarmee je tekst bestanden kunt maken en aanpassen.  
 **cat** : staat voor concatenate. Je kunt hiermee tekst van een of meerdere bestanden tegelijkertijd naar de terminal printen. Ook kan je files creëren of copiëren.  
 **piping commands with "|"** : combineren van meerdere commandos om specifieke resultaten te kunnen produceren.  
+**grep** : om door tekst of strings te zoeken.  
 
 ## Opdracht
 - gebruikt echo om een nieuwe zin toe te voegen aan een bestande file. Nieuwe zin moet 'techgrounds' bevatten'.
