@@ -29,5 +29,5 @@ all users : r-- = read
 
 Alles is gelukt, zie hierbij de toegevoegde screenshot:
 
-
+Opmerking: kan "chmod 711 file" in plaats van "chmod 700 file" gebruiken om dan de executable rechten voor "group" en "other" toe te laten.  
 ![Filepermissions](../00_includes/lnx-06.png)
