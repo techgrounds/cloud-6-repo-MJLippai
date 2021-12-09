@@ -30,7 +30,10 @@ https://linuxize.com/post/bash-if-else-statement/
 Bij de eerste opdracht wou ik een if/else statement gebruiken zodat als het bestand nog niet bestond dat hij voor het eerst zou worden aangemaakt (met een unique zin). Was in het begin wat moeilijk om uit te komen maar het is uiteindelijk wel gelukt met wat googlen. Daarna kon ik zelfde syntax gedeeltelijk in opdracht 2 gebruiken.
 
 ### Resultaat
+
 Succesvol, zie toegevoegde beelden:  
+
+**Belangrijke punt, om de verschillende scripts hieronder volledig te kunnen gebruiken in andere mappen die niet $HOME/scripts is (via het aagepaste $PATH) moet je "$HOME/scripts" maar weghalen van de "does file not exist" syntax ([ ! -e $HOME/scripts/newline2 ]).**
 
 Opdracht 1.0  Editing of .bashrc in Home to make permanent PATH update.
 ![lnx-10op1](https://user-images.githubusercontent.com/95615509/145396317-894a207b-5af7-4a6e-b4d8-ab4eeb6b0f56.png)
