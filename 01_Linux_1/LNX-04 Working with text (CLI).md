@@ -2,9 +2,9 @@
 Leren om met verschillende commands tekst bestanden te creëren en aanpassen.
 
 ## Key-terms
-- CLI : de "command line interface" of ook de terminal genoemd waar je zonder GUI heel exacte werkingen kunt uitvoeren.
-- echo : een command in linux waarmee je tekst bestanden kunt maken en aanpassen.
-- cat : staat voor concatenate. Je kunt hiermee tekst van een of meerdere bestanden tegelijkertijd naar de terminal printen. Ook kan je files creëren of copiëren.
+**CLI** : de "command line interface" of ook de terminal genoemd waar je zonder GUI heel exacte werkingen kunt uitvoeren.
+**echo** : een command in linux waarmee je tekst bestanden kunt maken en aanpassen.
+**cat** : staat voor concatenate. Je kunt hiermee tekst van een of meerdere bestanden tegelijkertijd naar de terminal printen. Ook kan je files creëren of copiëren.
 
 ## Opdracht
 - gebruikt echo om een nieuwe zin toe te voegen aan een bestande file. Nieuwe zin moet 'techgrounds' bevatten'.
