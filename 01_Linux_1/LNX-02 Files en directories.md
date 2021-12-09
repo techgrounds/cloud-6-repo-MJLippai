@@ -27,4 +27,5 @@ Geen problemen.
 ### Resultaat
 Alles is gelukt, zie het volgende beeld:
 
+ls met optie -a toont ook de hidden files:  
 ![Filesendirectories](../00_includes/lnx-02.png)
