@@ -26,11 +26,11 @@ Gelukt, zie toegevoegde beelden:
 Opdracht 1.1  
 ![datecronscript](../00_includes/lnx-11op1.1.png)
 
-Opdracht 1.2 Eenmaal je crontab -e gebruiked en je gewenste editor kiest (eerste keer):
+Opdracht 1.2 Eenmaal je crontab -e gebruiked en je gewenste editor kiest (eerste keer):  
 ![cronjab](../00_includes/lnx-11op1.2.png)
 
 Opdracht 2.1  
 ![availabledisk](../00_includes/lnx-11op2.1.png)
 
-Opdracht 2.2  
+Opdracht 2.2  In dit voorbeeld stelt 0 0 * * 0 > elke zondag op 0:00 (dus elke week van elke maand zijn de twee sterretjes:  
 ![crontabavaildisk](../00_includes/lnx-11op2.2.png)
