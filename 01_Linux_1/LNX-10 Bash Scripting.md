@@ -38,7 +38,7 @@ Opdracht 1.0  Editing of .bashrc in Home to make permanent PATH update.
 Opdracht 1.1  
 ![newlinescript](../00_includes/lnx-10op1.1.png)
 
-Opdracht 1.2  
+Opdracht 1.2  Code in newline.sh
 ![newlinescript2](../00_includes/lnx-10op1.2.png)
 
 Opdracht 1.3  
