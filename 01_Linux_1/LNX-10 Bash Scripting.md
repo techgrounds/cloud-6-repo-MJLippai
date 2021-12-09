@@ -39,7 +39,7 @@ Opdracht 1.1
 ![newlinescript](../00_includes/lnx-10op1.1.png)
 
 Opdracht 1.2  Code in newline.sh  
-![newlinescript2](../00_includes/lnx-10op1.2.png)
+![newlinescript2](../00_includes/lnx-10op1.2v2.png)
 
 Opdracht 1.3  
 ![apache2script](../00_includes/lnx-10op1.3.png)
