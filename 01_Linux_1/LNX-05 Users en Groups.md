@@ -2,8 +2,8 @@
 Linux maakt gebruik van user accounts en groups. Een user kan tot een bepaalde group behoren.  Elke user account heeft een bepaalde niveau van permissions voor verschillende files en mappen vanwege individuele or group instellingen. 
 
 ## Key-terms
-root user: speciale user die alles kan doen. Bepaalde normale users kunnen momenteel gebruik maken van root permissies via "sudo" command.
-
+**root user**: speciale user die alles kan doen. Bepaalde normale users kunnen momenteel gebruik maken van root permissies via "sudo" command.  
+**getent**: commando die entries van een database die ondersteund zijn door de Name Service Switch libraries kan tonen, die geconfigureerd zijn in  /etc/nsswitch.conf.  
 
 ## Opdracht
 - een nieuwe user aanmaken, deze gebruiken moet in deze group zitten als de oorspronkelijk account die werd gecreëerd tijdens installatie
