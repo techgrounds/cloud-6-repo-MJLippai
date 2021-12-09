@@ -2,10 +2,10 @@
 Met Bash scripting kan je meerdere commandos in een bestand scrijven. Deze kunnen dan allemaal worden uitgevoerd door deze bestand dan uit te voeren.
 
 ## Key-terms
-PATH variable : mappen die worden gecheckt door de OS om de programma te kunnen draaien
-RANDOM : een shell variable waarmee je willekeurige nummers kan opvragen
-UFW : "uncomplicated firewall"-> een simpele firewall voor linux die waarmee makkelijk wordt om toegang te geven of negeren op basis van regels die je op moet stellen
-Vim : is een implementatie van Vi standard met meerdere opties, het is een text editor waarmee je bestanden kan maken en veranderen. 
+**PATH variable** : mappen die worden gecheckt door de OS om de programma te kunnen draaien. Hiermee kan je dan programmas die in die map zitten draaien zonder de hele path steeds te typen.  
+**RANDOM**: een shell variable waarmee je willekeurige nummers kan opvragen.  
+**UFW** : "uncomplicated firewall"-> een simpele firewall voor linux die waarmee makkelijk wordt om toegang te geven of negeren op basis van regels die je op moet stellen.  
+**Vim** : is een implementatie van Vi standard met meerdere opties, het is een text editor waarmee je bestanden kan maken en veranderen.  
 
 ## Opdracht 1
 - maak een nieuwe map die "scripts" heet. Plaats alle scripts hierin.
