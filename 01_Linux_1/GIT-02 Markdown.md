@@ -2,9 +2,9 @@
 Markdown is een WYSIWYM type van een open-source Markup Language. Het is een text-to-HTML conversie tool om geformateerde text te creëren met een plain-text editor.
 
 ## Key-terms
-**Markdown** = een open-source Markup Language.
-**WYSIWYM** = What You See Is What You Mean 
-**WYSIWYG** = What You See Is What You Get
+**Markdown** = een open-source Markup Language.  
+**WYSIWYM** = What You See Is What You Mean.  
+**WYSIWYG** = What You See Is What You Get.  
 
 ## Opdracht
 -	Maak een document met je gekozen editor.
