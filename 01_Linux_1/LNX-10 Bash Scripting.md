@@ -35,6 +35,9 @@ Succesvol, zie toegevoegde beelden:
 Opdracht 1.0  Editing of .bashrc in Home to make permanent PATH update.
 ![lnx-10op1](https://user-images.githubusercontent.com/95615509/145396317-894a207b-5af7-4a6e-b4d8-ab4eeb6b0f56.png)
 
+Opdracht 1.0b Testing of PATH addition  
+![lnx-10op1b](https://user-images.githubusercontent.com/95615509/145410676-c59eb7a3-c2ac-4bc1-825c-1132848ebabe.png)
+
 Opdracht 1.1  
 ![newlinescript](../00_includes/lnx-10op1.1.png)
 
