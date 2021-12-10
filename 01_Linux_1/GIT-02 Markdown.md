@@ -5,7 +5,7 @@ Markdown is een WYSIWYM type van een open-source Markup Language. Het is een tex
 **Markdown** = een open-source Markup Language.  
 **WYSIWYM** = What You See Is What You Mean.  
 **WYSIWYG** = What You See Is What You Get.  
-**Gedistrubueerde versiebeheer** = Iedereen heeft de hele code in zijn bezit. Er zijn meerdere voordelen hiervan zoals snel en automatisch te kunnen mergen en branchen.
+**Gedistrubueerde versiebeheer** = Iedereen heeft de hele code in zijn bezit. Er zijn meerdere voordelen hiervan zoals snel en automatisch te kunnen mergen en branchen.  
 **Gecentraliseerde versiebeheer** = Er is een centrale versie die iedereen moet aanpassen.  
 
 ## Opdracht
