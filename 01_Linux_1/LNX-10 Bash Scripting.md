@@ -56,4 +56,4 @@ Opdracht 2
 ![random2variable2file](../00_includes/lnx-10op2.png)
 
 Opdracht 3  
-![lnx-10op3](../00_includes/lnx-10op3.png)
+![lnx-10op3](../00_includes/lnx-10op3v2.png)
