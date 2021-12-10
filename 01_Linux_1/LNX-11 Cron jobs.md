@@ -2,8 +2,8 @@
 Met cron jobs kan je specifieke commandos of processen uitvoeren op bepaalde tijden.
 
 ## Key-terms
-crontab : hiermee kan je bash scripts inplannen zodat ze op bepaalde or periodieke tijden draaien.
-df : "disk filesystem" -> hiermee kan informatie laten tonen van de verschillende filesystemen die verbonden zijn aan je "tree".
+**crontab** : hiermee kan je bash scripts inplannen zodat ze op bepaalde or periodieke tijden draaien.
+**df** : "disk filesystem" -> hiermee kan informatie laten tonen van de verschillende filesystemen die verbonden zijn aan je "tree".
 
 ## Opdracht
 - maak een Bash script die de huidige datum en tijd in een bestand in jouw home map bewaart
