@@ -23,7 +23,7 @@ Bij het bewaren van de beschikbare ruimte krijg ik eerst te veel info, dan heb i
 ### Resultaat
 Gelukt, zie toegevoegde beelden:
 
-Opdracht 1.1  
+Opdracht 1.1  Additional "./" Not needed to run the program below if the PATH has been updated with that directory.  
 ![datecronscript](../00_includes/lnx-11op1.1.png)
 
 Opdracht 1.2 Eenmaal je crontab -e gebruiked en je gewenste editor kiest (eerste keer):  
