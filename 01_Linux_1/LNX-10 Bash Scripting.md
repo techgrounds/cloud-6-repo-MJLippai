@@ -43,7 +43,7 @@ Opdracht 1.0  Editing of .bashrc in Home to make permanent PATH update.
 Opdracht 1.0b Testing of PATH addition  
 ![lnx-10op1b](https://user-images.githubusercontent.com/95615509/145410676-c59eb7a3-c2ac-4bc1-825c-1132848ebabe.png)
 
-Opdracht 1.1  
+Opdracht 1.1 Additional "./" not needed to run the program below if the PATH has been updated with that directory.  
 ![newlinescript](../00_includes/lnx-10op1.1.png)
 
 Opdracht 1.2  Code in newline.sh  
