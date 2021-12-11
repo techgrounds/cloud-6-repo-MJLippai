@@ -2,10 +2,10 @@
 Processen zijn allemaal instanties van code die aan het draaien is. Deze processen kunnen op meerdere manieren worden gemonitoreerd. In deze opracht ga ik een paar van deze methodes laten zien.
 
 ## Key-terms
-PID : Process ID -> met sommige commands moet je de PID gebruiken, bij anderen gebruikt je de naam van het process.
-Daemons: processen die in het achtergrond draaien en je verder niet merkt behalve het starten en stoppen daarvan. Niet interactief.
-Service: processen die reageren op verzoeken van programmas. Deze kunnen interactief zijn.
-Programs: een programma wordt door een user gebruikt, zoals bijvoorbeeld vi editor.
+**PID** : Process ID -> met sommige commands moet je de PID gebruiken, bij anderen gebruikt je de naam van het process.  
+**Daemons**: processen die in het achtergrond draaien en je verder niet merkt behalve het starten en stoppen daarvan. Niet interactief.  
+**Service**: processen die reageren op verzoeken van programmas. Deze kunnen interactief zijn.  
+**Programs**: een programma wordt door een user gebruikt, zoals bijvoorbeeld vi editor.  
 
 ## Opdracht
 - start de ssh daemon
