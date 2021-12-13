@@ -18,6 +18,8 @@ Bestudeer:
 
     Elke Azure-regio bevat datacenters die zijn geïmplementeerd binnen een latentie-gedefinieerde perimeter. Ze zijn verbonden via een speciaal regionaal netwerk met lage latentie. Dit ontwerp zorgt ervoor dat Azure-services binnen elke regio de best mogelijke prestaties en beveiliging bieden.  
 
+    *Sommige services of VM-functies zijn alleen beschikbaar in bepaalde regio's, zoals specifieke VM-grootten of opslagtypen. Er zijn ook enkele algemene Azure-services waarvoor u geen specifieke regio hoeft te selecteren, zoals Azure Active Directory, Azure Traffic Manager en Azure DNS*
+
 -   Wat is een Azure Availability Zone?
     Azure-beschikbaarheidszones zijn fysiek gescheiden locaties binnen elke Azure-regio die tolerant zijn voor lokale fouten. Fouten kunnen variëren van software- en hardwarefouten tot gebeurtenissen zoals aardbevingen, overstromingen en brand. Tolerantie voor fouten wordt bereikt vanwege redundantie en logische isolatie van Azure-services. Om tolerantie te garanderen, zijn er minimaal drie afzonderlijke beschikbaarheidszones aanwezig in alle regio's met beschikbaarheidszones.
 

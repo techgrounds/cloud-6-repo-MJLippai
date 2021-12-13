@@ -17,13 +17,13 @@ De Total Cost of Ownership (TCO) wordt gebruikt om te berekenen hoeveel een infr
 
 
 ## Key-terms
-OPEX
-CAPEX
+[OPEX vs CAPEX](../beschrijvingen/OPEXvsCAPEX.md)
 
 ## Opdracht 1
-De Azure principes voor kostenmanagement
+Bestudeer:
+- De Azure principes voor kostenmanagement
 - De voorwaarden van de `Free subscription`
-- Het verschil tussen CAPEX en OPEX.
+- Het verschil tussen CAPEX en OPEX. [OPEX vs CAPEX](../beschrijvingen/OPEXvsCAPEX.md)
 - De TCO-calculator  
 
 ## Opdracht 2
