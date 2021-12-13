@@ -19,7 +19,7 @@ De Total Cost of Ownership (TCO) wordt gebruikt om te berekenen hoeveel een infr
 ## Key-terms
 [OPEX vs CAPEX](../beschrijvingen/OPEXvsCAPEX.md#OPEXvsCAPEX)   
 
-[Cost Management + Billing](../beschrijvingen/Cost Management + Billing.md)
+[Cost Management + Billing](../beschrijvingen/Cost%20Management%20%2B%20Billing.md)
 
 
 ## Opdracht 1
