@@ -31,3 +31,11 @@ Uitgaven plannen en beheren
 Verschillende manieren waarop Cost Management u kan helpen bij het plannen en beheren van uw kosten: Kosten analyseren, budgetten, aanbevelingen en kostenbeheergegevens exporteren.
 
 U gebruikt kostenanalyse om de kosten van Azure voor uw bedrijf te verkennen en te analyseren. U kunt de totale kosten per bedrijf weergeven, zodat u begrijpt waar de kosten worden opgebouwd en uitgavenpatronen kunt identificeren. En u kunt de totale kosten bekijken om geschatte kostentrends per maand, per kwartaal en zelfs per jaar naast een budget te leggen.
+
+Aanvullende Azure-hulpprogramma’s
+Azure heeft andere hulpprogramma's die geen deel uitmaken van de Cost Management + Billing functieset. Ze spelen echter een belangrijke rol in het kostenbeheerproces. Zie de volgende koppelingen voor meer informatie over deze hulpprogramma’s.
+
+Azure Prijscalculator, gebruik dit hulpprogramma om de initiële cloudkosten in te schatten.
+Azure Migrate, beoordeel de werkbelasting van uw huidige gegevenscentrum voor inzicht in wat er nodig is van een Azure-vervangingsoplossing.
+Azure Advisor, identificeer ongebruikte VM’s en ontvang aanbevelingen over aankopen van Azure gereserveerde instanties.
+Azure Hybrid Benefit, gebruik uw huidige on-premises Windows Server- of SQL Server-licenties voor VM’s in Azure om te besparen.
