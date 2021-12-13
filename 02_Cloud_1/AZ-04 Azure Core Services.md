@@ -42,7 +42,7 @@ In-depth kennis nodig van:
 Bestudeer:
 -	Het Skills Measured document voor Microsoft Azure Fundamentals (AZ-900_)
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+Skills Measured document : https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]

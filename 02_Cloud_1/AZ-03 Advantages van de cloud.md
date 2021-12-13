@@ -48,7 +48,7 @@ De mogelijkheid om voor aanvullende resources te betalen wanneer ze nodig zijn.
 De mogelijkheid om te stoppen met betalen voor resources die niet meer nodig zijn.
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+- https://docs.microsoft.com/nl-nl/learn/modules/fundamental-azure-concepts/benefits-of-cloud-computing
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
