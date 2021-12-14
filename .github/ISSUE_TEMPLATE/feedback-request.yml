@@ -1,8 +1,8 @@
 ---
 name: Feedback Request
 about: Een verzoek om feedback te krijgen over een opdracht.
-title: Feedback request [SUBJECT]
-labels: ''
+title: "[Subject]: "
+labels: ["feedback"]
 assignees: ''
 ​
 ---
