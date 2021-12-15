@@ -35,7 +35,7 @@ U gebruikt kostenanalyse om de kosten van Azure voor uw bedrijf te verkennen en 
 Aanvullende Azure-hulpprogramma’s
 Azure heeft andere hulpprogramma's die geen deel uitmaken van de Cost Management + Billing functieset. Ze spelen echter een belangrijke rol in het kostenbeheerproces. Zie de volgende koppelingen voor meer informatie over deze hulpprogramma’s.
 
-Azure Prijscalculator, gebruik dit hulpprogramma om de initiële cloudkosten in te schatten.
-Azure Migrate, beoordeel de werkbelasting van uw huidige gegevenscentrum voor inzicht in wat er nodig is van een Azure-vervangingsoplossing.
-Azure Advisor, identificeer ongebruikte VM’s en ontvang aanbevelingen over aankopen van Azure gereserveerde instanties.
-Azure Hybrid Benefit, gebruik uw huidige on-premises Windows Server- of SQL Server-licenties voor VM’s in Azure om te besparen.
+- Azure Prijscalculator, gebruik dit hulpprogramma om de initiële cloudkosten in te schatten.
+- Azure Migrate, beoordeel de werkbelasting van uw huidige gegevenscentrum voor inzicht in wat er nodig is van een Azure-vervangingsoplossing.
+- Azure Advisor, identificeer ongebruikte VM’s en ontvang aanbevelingen over aankopen van Azure gereserveerde instanties.
+- Azure Hybrid Benefit, gebruik uw huidige on-premises Windows Server- of SQL Server-licenties voor VM’s in Azure om te besparen.

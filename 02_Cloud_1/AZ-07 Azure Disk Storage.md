@@ -1,13 +1,7 @@
 # Azure Disk Storage
-Azure Disk Storage kan gezien worden als een virtual hard drive in de cloud. Een disk kan een OS disk (waar het OS op staat) of een Data Disk (te vergelijken met een externe harde schijf) zijn. Je hebt een keuze tussen Managed Disks en Unmanaged Disks. Unmanaged Disks zijn goedkoper, maar je hebt er wel een Storage Account nodig (en je moet de disk dus zelf managen). Managed Data Disks kunnen gedeeld worden tussen meerdere VMs, maar dat is een relatief nieuwe feature en er zitten wat haken en ogen aan.
+Beheerde Azure-schijven zijn opslagvolumes op blokniveau die worden beheerd door Azure en worden gebruikt met Azure Virtual Machines. Beheerde schijven zijn net als een fysieke schijf op een on-premises server, maar gevirtualiseerd. Bij beheerde schijven hoeft u alleen de schijfgrootte en het schijftype op te geven en de schijf in terichten. Zodra u de schijf hebt ingericht, verwerkt Azure de rest.
 
-Backups van een Managed Disk kan je maken met Incremental Snapshots die alleen de aanpassingen sinds de laatste snapshot opslaan. Voor een Unmanaged Disk kan je alleen een ‘normale’ snapshot maken.
-
-Er zijn 4 typen managed disks. Over het algemeen kan je zeggen dat meer performance zorgt voor hogere kosten:
-bron: https://docs.microsoft.com/en-us/azure/virtual-machines/disks-types
-
-Een disk kan ge-encrypt worden voor security. Disks kunnen groter worden, maar niet kleiner.
-Als je een external device (inclusief een Data Disk) wilt gebruiken op Linux, moet je hem eerst mounten.  
+De beschikbare typen schijven zijn Ultra Disks, Premium SOLID-State Drives (SSD), Standard SSD's en Standard Hard Disk Drives (HDD). Zie Een schijftype selecteren voor IaaS-VM'svoor meer informatie over elk afzonderlijk schijftype. 
 
 ## Key-terms
 [Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
@@ -21,10 +15,29 @@ Als je een external device (inclusief een Data Disk) wilt gebruiken op Linux, mo
 -	Mount deze nieuwe Disk en bekijk het bestand. 
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://help.ubuntu.com/community/InstallingANewHardDrive
+https://superuser.com/questions/934678/fdisk-do-i-need-it-or-can-i-make-a-filesystem-directly
+https://www.howtogeek.com/443342/how-to-use-the-mkfs-command-on-linux/
+https://superuser.com/questions/676093/partition-not-showing-up-in-dev
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Eenmaal de gedeelde disk in de tweede vm werd aangeschakelt moest ik eerst fdisk met optie v gebruiken anders werd de partition niet erkend door de system. Daarna kon je heb wel in lsblk zien en vervolgens mounten.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+az-07.0 - Disk maken met shared disk optie geselecteer  
+![shareddisk](..\00_includes\az-07.0.png)  
+az-07.1 - Gedeelde disk toevoegen  
+![disktoevoegen](..\00_includes\az-07.1.png)  
+az-07.2 - Gedeelde disk partition maken met fdisk  
+![fdisk](..\00_includes\az-07.2.png)  
+az-07.3 - Partitie filesysteem installeren met mkfs. Disk mounten en nieuwe file maken in gedeelde disk.  
+![mkfs](..\00_includes\az-07.3.png)  
+az-07.4 - fdisk met v optie gebruiken om partitie te herkennen vanaf de andere vm  
+![fdiskv](..\00_includes\az-07.4.png)  
+az-07.5 - gedeelde disk in tweede vm mounten en bestand lezen  
+![shareddisk2](..\00_includes\az-07.5.png)  
+az-07.6 - Snapshot maken  
+![snapshot](..\00_includes\az-07.6.png)  
+az-07.7 - disk die van snapshot is gemaakt mounten en zelfde bestand (gecopieerd) lezen  
+![snaphotdiskmount](..\00_includes\az-07.7.png)  

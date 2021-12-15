@@ -1,7 +1,7 @@
 # Advantages van de cloud
-Azure noemt 6 voordelen van cloud computing. Dit zijn basiseigenschappen die de cloud interessant maken voor bedrijven. Houd er rekening mee dat dit gelijk ook een marketing tool is om Azure te introduceren aan nieuwe klanten. Daarom is het ook een belangrijk onderdeel van het AZ-900 examen.
 
-De zes voordelen van cloud computing zijn:
+De 6 belangrijke basiseigenschappen en voordelen van cloud computing zijn:
+
 -	High Availability
     -	   Afhankelijk van de service-level agreement (SLA)
 -	Scalability
@@ -11,15 +11,14 @@ De zes voordelen van cloud computing zijn:
 -	Geo-distribution
 -	Disaster recovery
 
-Azure maakt gebruik van een consumption-based model. Dat wil zeggen dat je alleen betaalt voor de bronnen die je gebruikt. Hierdoor wordt Capital Expenditure (CapEx) vervangen voor Operational Expenditure (OpEx).
-
+Zie ook : [OPEX vs CAPEX](../beschrijvingen/OPEXvsCAPEX.md#OPEXvsCAPEX)   
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+Zie 'Opdrachten'.
 
-## Opdracht
+## Opdrachten
 Bestudeer:
--	De 6 advantages of the cloud
+-	De 6 voodelen van de cloud
 -	Het consumption-based model
 
 Hoge beschikbaarheid (High Availability): Afhankelijk van de SLA (Service Level Agreement) die u kiest, kunnen uw cloud-apps een continue gebruikerservaring bieden zonder merkbare downtime, zelfs als er iets misgaat.
@@ -49,9 +48,10 @@ De mogelijkheid om te stoppen met betalen voor resources die niet meer nodig zij
 
 ### Gebruikte bronnen
 - https://docs.microsoft.com/nl-nl/learn/modules/fundamental-azure-concepts/benefits-of-cloud-computing
+- https://docs.microsoft.com/en-us/azure/architecture/framework/cost/design-price
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Geen Problemen.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Alles is gelukt, zie 'Opdrachten'.

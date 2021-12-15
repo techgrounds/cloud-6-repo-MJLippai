@@ -11,7 +11,7 @@ Core services kunnen onder de volgende categorieën vallen:
 In key-terms zijn deze verder verdeelt.
 
 ## Key-terms
-In-depth kennis nodig van:
+In-depth kennis nodig van (moet later worden gelinked me bescrijvingen):
 - Regions and Region Pairs
 - Availability Zones
 - Resource Groups
@@ -39,13 +39,20 @@ In-depth kennis nodig van:
 - Azure Marketplace
 
 ## Opdracht
-Bestudeer:
--	Het Skills Measured document voor Microsoft Azure Fundamentals (AZ-900_)
+Bestudeer het Skills Measured document voor Microsoft Azure Fundamentals (AZ-900_):
+De vaardigheden die door de exam worden bevestigd zijn:
+-   bescrijving cloud concepten (20-25%)
+-   bescrijving core diensten (15-20%)
+-   bescrijving core oplossingen en beheer hulpmiddelen azure(10-15%)
+-   bescrijving algemene en netwerk beveiliging opties (10-15%)
+-   bescrijving identiteit, nakoming, privacy en bestuur opties (15-20%)
+-   bescrijving Azure cost management en SLAs (10-15%)
+
+
 ### Gebruikte bronnen
 Skills Measured document : https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
-
+Geen problemen.
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Gelukt. Zie 'Opdracht'.
