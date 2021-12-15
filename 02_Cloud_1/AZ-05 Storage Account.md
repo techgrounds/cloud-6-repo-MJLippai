@@ -29,10 +29,10 @@ Geen Problemen.
 
 ### Resultaat
 Opdracht 1.1 - IP beperking:
-![IPrestriction](..\00_includes\az-05.1.png)
+![IPrestriction](../00_includes/az-05.1.png)
 
 Testen van access vanaf een andere pc:
-![TestAccess](..\00_includes\az-05.2.png)
+![TestAccess](../00_includes/az-05.2.png)
 
 Opdracht 1.2 en 1.3 Azure Storage explorer:
-![StorageExplorer](..\00_includes\az-05.3.png)
+![StorageExplorer](../00_includes/az-05.3.png)

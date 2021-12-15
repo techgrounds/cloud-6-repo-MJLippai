@@ -44,8 +44,8 @@ https://docs.microsoft.com/nl-nl/azure/virtual-machines/linux/overview
 ### Resultaat
 Opdracht 1.1 VM ip adres:
 
-![ipadres](..\00_includes\az-06.1.png)
+![ipadres](../00_includes/az-06.1.png)
 
 Opdracht 1.2 Bewijs server is live:
 
-![bewijslive](..\00_includes\az-06.2.png)
+![bewijslive](../00_includes/az-06.2.png)

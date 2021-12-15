@@ -26,18 +26,18 @@ Eenmaal de gedeelde disk in de tweede vm werd aangeschakelt moest ik eerst fdisk
 ### Resultaat
 
 az-07.0 - Disk maken met shared disk optie geselecteer  
-![shareddisk](..\00_includes\az-07.0.png)  
+![shareddisk](../00_includes/az-07.0.png)  
 az-07.1 - Gedeelde disk toevoegen  
-![disktoevoegen](..\00_includes\az-07.1.png)  
+![disktoevoegen](../00_includes/az-07.1.png)  
 az-07.2 - Gedeelde disk partition maken met fdisk  
-![fdisk](..\00_includes\az-07.2.png)  
+![fdisk](../00_includes/az-07.2.png)  
 az-07.3 - Partitie filesysteem installeren met mkfs. Disk mounten en nieuwe file maken in gedeelde disk.  
-![mkfs](..\00_includes\az-07.3.png)  
+![mkfs](../00_includes/az-07.3.png)  
 az-07.4 - fdisk met v optie gebruiken om partitie te herkennen vanaf de andere vm  
-![fdiskv](..\00_includes\az-07.4.png)  
+![fdiskv](../00_includes/az-07.4.png)  
 az-07.5 - gedeelde disk in tweede vm mounten en bestand lezen  
-![shareddisk2](..\00_includes\az-07.5.png)  
+![shareddisk2](../00_includes/az-07.5.png)  
 az-07.6 - Snapshot maken  
-![snapshot](..\00_includes\az-07.6.png)  
+![snapshot](../00_includes/az-07.6.png)  
 az-07.7 - disk die van snapshot is gemaakt mounten en zelfde bestand (gecopieerd) lezen  
-![snaphotdiskmount](..\00_includes\az-07.7.png)  
+![snaphotdiskmount](../00_includes/az-07.7.png)  
