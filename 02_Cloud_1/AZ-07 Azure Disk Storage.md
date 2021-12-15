@@ -24,20 +24,22 @@ https://superuser.com/questions/676093/partition-not-showing-up-in-dev
 Eenmaal de gedeelde disk in de tweede vm werd aangeschakelt moest ik eerst fdisk met optie v gebruiken anders werd de partition niet erkend door de system. Daarna kon je heb wel in lsblk zien en vervolgens mounten.
 
 ### Resultaat
+Alles is gelukt zie toegevoegde screenshots:  
 
-az-07.0 - Disk maken met shared disk optie geselecteer  
+az-07.0 - Disk maken met shared disk optie geselecteer:  
 ![shareddisk](../00_includes/az-07.0.png)  
-az-07.1 - Gedeelde disk toevoegen  
+az-07.1 - Gedeelde disk toevoegen:  
 ![disktoevoegen](../00_includes/az-07.1.png)  
-az-07.2 - Gedeelde disk partition maken met fdisk  
-![fdisk](../00_includes/az-07.2.png)  
-az-07.3 - Partitie filesysteem installeren met mkfs. Disk mounten en nieuwe file maken in gedeelde disk.  
+az-07.2 - Gedeelde disk partition maken met fdisk:  
+![fdisk](../00_includes/lnx-07.2.png)  
+az-07.3 - Partitie filesysteem installeren met mkfs. Disk mounten en nieuwe file maken in gedeelde disk:  
 ![mkfs](../00_includes/az-07.3.png)  
-az-07.4 - fdisk met v optie gebruiken om partitie te herkennen vanaf de andere vm  
+az-07.4 - fdisk met v optie gebruiken om partitie te herkennen vanaf de andere vm:  
 ![fdiskv](../00_includes/az-07.4.png)  
-az-07.5 - gedeelde disk in tweede vm mounten en bestand lezen  
+az-07.5 - gedeelde disk in tweede vm mounten en bestand lezen:  
 ![shareddisk2](../00_includes/az-07.5.png)  
-az-07.6 - Snapshot maken  
+az-07.6 - Snapshot maken:  
 ![snapshot](../00_includes/az-07.6.png)  
-az-07.7 - disk die van snapshot is gemaakt mounten en zelfde bestand (gecopieerd) lezen  
+az-07.7 - disk die van snapshot is gemaakt mounten en zelfde bestand (gecopieerd) lezen:  
 ![snaphotdiskmount](../00_includes/az-07.7.png)  
+cloud-6-repo-MJLippai\00_includes\lnx-07.2.png

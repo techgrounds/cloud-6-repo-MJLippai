@@ -25,4 +25,12 @@ Opdracht:
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+Bestudeer:
+-	Het verschil tussen Basic en Premium Firewall
+-	Het verschil tussen een Firewall en een Firewallbeleid (Firewall Policy)
+-	Dat Azure Firewall veel meer is dan alleen een firewall
+
+Opdracht:
+-	Zet een webserver aan. Zorg dat de poorten voor zowel SSH als HTTP geopend zijn.
+-	Maak een Azure Firewall in VNET. Zorg ervoor dat je webserver nog steeds bereikbaar is via HTTP, maar dat SSH geblokkeerd wordt.

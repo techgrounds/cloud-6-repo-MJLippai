@@ -18,7 +18,24 @@ Dit kan je verder bekijken hier : [Global Infrasture - Region Product search](ht
 -   Region Pairs
 
 ## Opdracht
-Bestudeer:
+Bestudeer (zie resultaten):
+-	Wat is een Azure Region?
+-	Wat is een Azure Availability Zone?
+-	Wat is een Azure Region Pair?
+-	Waarom zou je een regio boven een andere verkiezen?
+
+
+### Gebruikte bronnen
+https://docs.microsoft.com/nl-nl/learn/modules/intro-to-azure-fundamentals/  
+https://docs.microsoft.com/nl-nl/azure/availability-zones/az-overview  
+https://docs.microsoft.com/nl-nl/azure/virtual-machines/regions  
+
+### Ervaren problemen
+Geen Problemen. 
+
+### Resultaat
+De termen waren goed te vinden op de websites van Azure en Microsoft:
+
 -   Wat is een Azure Region?
     Diverse Azure datacenters worden gegroepeerd in geografische regio's. Meerdere datacenters in elke regio zorgen voor voldoende redundantie en beschikbaardeid.
     Elke regio wordt binnen een latentie-defineerde gebied vastegesteld dat ervoor zorgt dat de hoogste mogelijke prestaties en beveiliging geleveerd worden.
@@ -49,14 +66,3 @@ Bestudeer:
     -   data residency
     -   beschikbaarheid van specifieke Azure diensten
     -   kosten kunnen ook een rol spelen
-
-### Gebruikte bronnen
-https://docs.microsoft.com/nl-nl/learn/modules/intro-to-azure-fundamentals/  
-https://docs.microsoft.com/nl-nl/azure/availability-zones/az-overview  
-https://docs.microsoft.com/nl-nl/azure/virtual-machines/regions  
-
-### Ervaren problemen
-Geen Problemen. 
-
-### Resultaat
-De termen waren goed te vinden op de websites van Azure en Microsoft. Zie de opdrachten boven.

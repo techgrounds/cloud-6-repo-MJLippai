@@ -8,10 +8,10 @@ Azure Storage explorer is een gratis GUI om je data te beheren in Azure.
 Veel IaaS en PaaS services van Azure maken ook gebruik van Azure Storage Accounts.
 
 ## Key-terms
-Azure Blob storage -  een geoptimaliseerde object storage oplossing in de cloud voor het bewaren van groot en ongestructureerde bestanden.
-Azure managed disks - blok-nivaeu opslagvolumes die worden beheerd door Azure en gebruiked door Azure Virtual Machines.
-Azure Files - gebruiken van SMB-protocol (Industry Standard Server Message Block) of het NFS-protocol (Network File System) om volledig beheerde bestandaandelen in de cloud aan te maken.
-Azure Table Storage - een service die niet-relationele gestructureerde gegevens (ook wel gestructureerde NoSQL-gegevens genoemd) opgeslagen in de cloud, waardoor een sleutel-/kenmerkopslag wordt voorzien van een schemaloos ontwerp.
+**Azure Blob storage** -  een geoptimaliseerde object storage oplossing in de cloud voor het bewaren van groot en ongestructureerde bestanden.
+**Azure managed disks** - blok-nivaeu opslagvolumes die worden beheerd door Azure en gebruiked door Azure Virtual Machines.
+**Azure Files** - gebruiken van SMB-protocol (Industry Standard Server Message Block) of het NFS-protocol (Network File System) om volledig beheerde bestandaandelen in de cloud aan te maken.
+**Azure Table Storage** - een service die niet-relationele gestructureerde gegevens (ook wel gestructureerde NoSQL-gegevens genoemd) opgeslagen in de cloud, waardoor een sleutel-/kenmerkopslag wordt voorzien van een schemaloos ontwerp.
 
 ## Opdracht
 -	Maak een Azure Storage Account. Zorg dat alleen jij toegang hebt tot de data.
