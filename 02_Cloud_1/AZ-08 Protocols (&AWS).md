@@ -1,18 +1,16 @@
 # Protocols
 Een netwerk protocol is een afspraak die wij mensen gemaakt hebben over hoe computers met elkaar communiceren. Deze afspraken maken het mogelijk dat het Internet kan bestaan, zonder dat je voor iedere verbinding een andere standaard moet aanhouden.
-Het OSI-model is een goed hulpmiddel om te beschrijven waar een protocol ‘leeft’ en wat het doel is van een protocol. Vaak genoeg ‘leeft’ een protocol in meerdere lagen van het OSI-model.
+Het OSI-model is een goed hulpmiddel om te beschrijven waar een protocol ‘leeft’ en wat het doel is van een protocol. Vaak genoeg ‘leeft’ een protocol in meerdere lagen van het OSI-model. TCP en UDP zijn allebei voorbeelden van protocols maar bij UDP stuurt de ontvanger geen bevestiging naar de verzender (zie Key-terms).
 
-Twee protocols die in laag 4 ‘leven’ is TCP en UDP. Deze protocols zijn verantwoordelijk voor het transport van internet pakketten. 
-TCP, veel gebruikt op het web, heeft een aantal stappen waarin er zeker gesteld wordt dat de verbinding gemaakt kan worden en om zeker te zijn dat alle data is overgekomen. Dit is ook wel de ‘three-way handshake’ genoemd. Dit maakt TCP erg betrouwbaar.
-UDP heeft een hele andere aanpak: ‘fire and forget’. UDP maakt geen zorgen over of een pakketje aankomt. Dit maakt dit protocol onbetrouwbaar, maar wel veel sneller. UDP wordt veel gebruikt in omstandigheden waar snelheid belangrijker is dan snelheid. Zoals de video data van een Zoom-call.
-
-Protocols die ‘leven’ in hogere lagen van het OSI-model hebben meestal specifieke toepassingen. HTTP(s) of SSH zijn enkele voorbeelden van hogere level protocols.
-
-Onderdeel van de afspraken die wij gemaakt hebben over protocols is dat deze meestal een ‘standaard poort’ hebben. Voor SSH is dit poort 22.
+Protocols zijn overeenkomsten die zijn vastgesteld zodat het mogelijk wordt meerdere computers met elkaar te laten communiceren. Deze protocol bestaan in een of meerder lagen van de OSI-model (zie Key-terms) waarmee je een goeie overzicht kan krijgen van een hele systeem. Dit kan je dan bij het probleemoplossen gebruiken of het leren van verschillende systeem configuraties.
 
 
 ## Key-terms
+**TCP** : Transmission Control Protocol is een verbindingsgeoriënteerd protocol dat veel gebruikt wordt voor gegevensoverdracht over netwerkverbindingen op het internet en op computernetwerken zoals local area networks en thuisnetwerken.
 
+**UDP** : User Datagram Protocol is een bericht-georiënteerd protocol. Dit wil zeggen dat een verzender een bericht stuurt aan de ontvanger, net als bij het TCP protocol. Het verschil met TCP is echter dat de ontvanger bij UDP geen bevestiging stuurt naar de verzender.
+
+**OSI model**: Open Systems Interconnection model is een model dat de algemene principes van de interconnectie van open systemen (OSI) beschrijft, alsmede het doel en de rangschikking van zijn lagen(1); uit zeven hiërarchische lagen bestaand, door de ISO te normaliseren model van een datacommunicatie-protocol voor pakketschakeling, waarbij elke laag uit een aantal overdrachtsdiensten bestaat, die op hun beurt gebruik maken van diensten van eronder liggende lagen.  
 
 ## Opdrachten
 Bestudeer:

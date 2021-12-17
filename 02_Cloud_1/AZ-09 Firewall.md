@@ -34,7 +34,22 @@ Bestudeer:
 -	Het verschil tussen Basic en Premium Firewall:
 [Basic vs Premium Firewall](../beschrijvingen/BasicVsPremium.md)
 -	Het verschil tussen een Firewall en een Firewallbeleid (Firewall Policy)
+
+Firewallbeleid: de aanbevolen methode voor het configureren van Azure Firewall. Het is een globale resource die kan worden gebruikt in verschillende Azure Firewall-exemplaren in Beveiligde virtuele hubs en virtuele netwerken voor hubs. Beleidsregels werken in verschillende regio’s en abonnementen.
+
+Beleid kan op verschillende manieren worden gemaakt en beheerd, waaronder de Azure-portal, REST API, sjablonen, Azure PowerShell en CLI.
+
+U kunt ook bestaande klassieke regels migreren vanuit Azure Firewall portal of Azure PowerShell om beleid te maken. Zie Azure Firewall-configuraties migreren naar Azure Firewall-beleid voor meer informatie.
+
+Firewall is dan de applicatie die de beleid uitvoerd.
+
 -	Dat Azure Firewall veel meer is dan alleen een firewall
+
+Omdat Azure Firewall gebruikt maakt van verbinding met Microsoft Cyber Security dat continu geupdate wordt betekent dit dat Azure Firewall een filtrering systeem heeft dat steeds wordt versterkt met de data van de globale systeem. 
+
+Ook door het gebruikt van prioriteit regels kunnen heel detailleerd beleidsystemen worden samengesteld dat precies passen bij de behoeften van jouw bedrijf.
+
+Daarnaast heeft Azure firewall standaard en premium onzetend veel mogelijkheden om jouw firewall aan te passan. Deze kan je [hier](../beschrijvingen/BasicVsPremium.md) in meer detaille zien.
 
 Opdracht:
 

@@ -21,7 +21,7 @@ De Azure-portal ondersteunt momenteel de volgende typen factureringsaccounts:
 - Enterprise Overeenkomst
 - Microsoft-klantovereenkomst
 
-Inzicht Cost Management
+**Inzicht Cost Management**
 
 Cost Management toont organisatorische kosten en gebruikspatronen aan met geavanceerde analyses. Rapporten in Cost Management tonen de verbruikskosten die worden toegerekend aan Azure-services en aanbiedingen op Marketplace van derden. De kosten zijn gebaseerd op de overeengekomen prijzen en er wordt rekening gehouden met kortingen voor reserveringen en Azure Hybrid Benefit. Gezamenlijk tonen de rapporten uw intern en externe kosten voor gebruik en kosten voor Azure Marketplace. Andere kosten, zoals reserveringskosten, ondersteuning en belasting worden nog niet in rapporten getoond. De rapporten helpen u grip te krijgen op uw uitgaven en resource-gebruik en kunnen helpen afwijkingen te vinden in uitgaven. Voorspellende analyses zijn ook beschikbaar. Cost Management gebruikt Azure managementgroepen, budgetten en aanbevelingen om duidelijk aan te tonen hoe uw uitgaven zijn ingedeeld en hoe u kosten kunt reduceren.
 

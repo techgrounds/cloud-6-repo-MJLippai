@@ -1,5 +1,4 @@
 # Azure Core Services
-De Skills Measured document kan gezien worden als een soort gids naar je AZ-900 certificering. Hierin staan de services die je in wat meer detail moet kennen. Ook beschrijft dit document hoe je moet omgaan met de andere services die je in het (oefen)examen tegen kan komen.
 
 Core services kunnen onder de volgende categorieën vallen: 
 -   Compute             -   Web
@@ -8,16 +7,21 @@ Core services kunnen onder de volgende categorieën vallen:
 -   Mobiele telefoon    -   AI
 -   Databases           -   DevOps
 
-In key-terms zijn deze verder verdeelt.
+De Skills Measured document kan gezien worden als een soort gids naar je AZ-900 certificering. Hierin staan de services die je in wat meer detail moet kennen. Ook beschrijft dit document hoe je moet omgaan met de andere services die je in het (oefen)examen tegen kan komen
+
+In key-terms zijn deze verder verdeeld.
 
 ## Key-terms
-In-depth kennis nodig van (moet later worden gelinked me bescrijvingen):
-- Regions and Region Pairs
-- Availability Zones
-- Resource Groups
-- Subscriptions
-- Management Groups
-- Azure Resource Manager
+In-depth kennis nodig van:
+- Regions and Region Pairs [AZ-01](../02_Cloud_1/AZ-01%Global%Infrastructure.md)
+- Availability Zones [AZ-01](../02_Cloud_1/AZ-01%Global%Infrastructure.md)
+- Resource Groups [AZ-01](../02_Cloud_1/AZ-01%Global%Infrastructure.md)
+- Subscriptions : 
+    - [Free Subscription](https://azure.microsoft.com/en-us/free/)
+    - [pay-as-you-go](https://azure.microsoft.com/en-us/offers/ms-azr-0003p/)
+    - [Member-offers](https://azure.microsoft.com/en-us/offers/ms-azr-0003p/)
+- Management Groups 
+- Azure Resource Manager 
 - Virtual Machines
 - Azure App Services
 - Azure Container Instances (ACI)
@@ -51,6 +55,10 @@ De vaardigheden die door de exam worden bevestigd zijn:
 
 ### Gebruikte bronnen
 Skills Measured document : https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
+https://azure.microsoft.com/en-us/support/legal/offer-details/
+https://azure.microsoft.com/en-us/offers/ms-azr-0003p/
+https://azure.microsoft.com/en-us/free/
+https://cloudacademy.com/course/understanding-azure-pricing-and-support/azure-subscriptions/
 
 ### Ervaren problemen
 Geen problemen.
