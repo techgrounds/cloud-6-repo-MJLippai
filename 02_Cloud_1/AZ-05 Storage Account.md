@@ -23,6 +23,7 @@ https://docs.microsoft.com/nl-nl/azure/storage/common/storage-account-overview
 https://docs.microsoft.com/nl-nl/azure/storage/files/storage-files-introduction
 https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
 https://docs.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview
+https://help.ubuntu.com/community/InstallingANewHardDrive
 
 ### Ervaren problemen
 Geen Problemen.
