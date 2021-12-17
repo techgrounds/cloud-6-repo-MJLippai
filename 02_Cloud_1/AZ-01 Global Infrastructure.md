@@ -19,8 +19,6 @@ Welke diensten gebonden zien aan welke regios kan je verder bekijken hier : [Glo
 
 **Flexible orchestration**: een hoge beschikbaarheid bereiken met identieke of verschillende machinetypen. Een grote voordeel is dat met flexibele orkestratie ook standaard Azure VM's kunnen worden opgeschaald. Dus kunnen standaard-VM-API's kunnen worden gebruikt in plaats van de VM schaalset VM-API's dat bij Uniform-orkestratie worden gebruikt.
 
-
-Unif
 ## Opdracht
 Bestudeer (zie resultaten):
 -	Wat is een Azure Region?
