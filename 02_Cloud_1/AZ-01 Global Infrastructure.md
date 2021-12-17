@@ -4,19 +4,23 @@ Elke cloud provided heeft een onderliggende fysieke infrastructuur. De globale i
 -   Availability Zones
 -   Region Pairs
 
-Klanten kunnen zelf hun regio selecteren. Dit kan wel soms invloed hebben tot welke services ze toegaan hebben, bijv:
+Klanten kunnen zelf hun regio selecteren. Dit kan wel soms invloed hebben tot welke services ze toegaan hebben en het opzetten van virtuele machine scale sets.
 
 Niet gebonden is aan regio : Azure Subscriptions , Azure Open Datasets, Power BI Embedded.  
 
 Wel gebonden aan regio: Azure Bot Services, Health Bot, Microsoft Genomics, Azure Purview.
 
-Dit kan je verder bekijken hier : [Global Infrasture - Region Product search](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all)  
+Welke diensten gebonden zien aan welke regios kan je verder bekijken hier : [Global Infrasture - Region Product search](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all)  
 
 ## Key-terms
--   Regions
--   Availability Zones
--   Region Pairs
+**Virtual Machine Scale sets**: een logische groepering van virtuele machines die door de Azure platform worden beheerd. Een virtueel computerconfiguratiemodel wordt samengesteld waarmee heel simpel eenheden daarvan kunnen worden toegevoegd of verwijdert op basis van vereisde CPU of geheugen. Het schalen wordt gefaciliteerd door Uniform of Flexibele orkestratie.
 
+**Uniform Orchestration**: gebruiken van identieke vm-exemplaren om op te schalen naar de gewenste capaciteit.
+
+**Flexible orchestration**: een hoge beschikbaarheid bereiken met identieke of verschillende machinetypen. Een grote voordeel is dat met flexibele orkestratie ook standaard Azure VM's kunnen worden opgeschaald. Dus kunnen standaard-VM-API's kunnen worden gebruikt in plaats van de VM schaalset VM-API's dat bij Uniform-orkestratie worden gebruikt.
+
+
+Unif
 ## Opdracht
 Bestudeer (zie resultaten):
 -	Wat is een Azure Region?

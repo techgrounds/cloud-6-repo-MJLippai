@@ -1,4 +1,7 @@
-Kapitaaluitgaven versus operationele uitgaven
+## OPEX vs Capex
+
+*Kapitaaluitgaven versus operationele uitgaven*
+
 Er zijn twee verschillende soorten uitgaven die u moet overwegen:
 
 Bij kapitaaluitgaven (CapEx) wordt er vooraf geld besteed aan een fysieke infrastructuur. Vervolgens worden die kosten over een bepaalde periode afgetrokken. De aanloopkosten van CapEx hebben een waarde die in de loop der tijd afneemt.
