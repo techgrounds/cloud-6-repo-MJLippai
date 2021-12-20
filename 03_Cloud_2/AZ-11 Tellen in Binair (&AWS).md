@@ -1,5 +1,5 @@
 # Tellen in Binair
-Traditionele computers (nu bestaan er ook quantum computers) werken met data, deze wordt in binair getallen in een bit bewaard. 
+Traditionele computers (nu bestaan er ook quantum computers) werken met data die door middel van binair getallen in een bit bewaard worden. 
 
 De maximale nummer die door 1 byte (8 bits) kan worden vertegenwoordigd is 255 of 11111111.
 
