@@ -3,7 +3,7 @@ Traditionele computers (nu bestaan er ook quantum computers) werken met data die
 
 De maximale nummer die door 1 byte (8 bits) kan worden vertegenwoordigd is 255 of 11111111.
 
-Getallen worden verdeeld in machten van 2, met een voorkeur voor de grotere getallen. Er worden dus zoveel mogelijk gebruik gemaakt van de grootste nummer die kan worden vertegenwoordigd door 1 bit (128) en zo blijf je doorgaan totdat je tot de vertegenwoordiging van de nummer 1 komt. 
+Getallen worden verdeeld in machten van 2 (base 2), met een voorkeur voor de grotere getallen. Er worden dus zoveel mogelijk gebruik gemaakt van de grootste nummer die kan worden vertegenwoordigd door 1 bit (128) en zo blijf je doorgaan totdat je tot de vertegenwoordiging van de nummer 1 komt. 
 
 Voorbeeld:
 
