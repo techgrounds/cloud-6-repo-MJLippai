@@ -13,12 +13,11 @@ Voorbeeld:
 
 
 ## Key-terms
-**bit** : de kleinste eenheid van data, een 1 of een 0
-**byte** : 8 bits
-**32-bit** processor : kan 4 bytes tegelijk verwerken
-**64-bit** processor : kan 8 bytes tegelijk verwerken
-byte 
-**IPv6** : adressen die gebruik maken van een telsysteem met 16 tekens; ook uigedrukt als: 0-f 
+**bit** : de kleinste eenheid van data, een 1 of een 0  
+**byte** : 8 bits  
+**32-bit** processor : kan 4 bytes tegelijk verwerken  
+**64-bit** processor : kan 8 bytes tegelijk verwerken  
+**IPv6** : adressen die gebruik maken van een telsysteem met 16 tekens; ook uigedrukt als: 0-f  
 
 ## Opdracht
 Bestudeer:
