@@ -85,8 +85,8 @@ Meeste routers hebben een overzicht van alle verbonden apparaten, vindt deze lij
 
     De standaard instellingen:  
         Netwerk Instellingen LAN:  
-            -   IP Address : 192.168.2.254  
-            -   IP Subnet Mask : 255.255.255.0  
+            -   IP Address : xxx
+            -   IP Subnet Mask : xxx
             -   DHCP Server : aan  
         IP Address Pool:  
             -   192.168.2.1-200  
@@ -103,19 +103,19 @@ Wireless LAN adapter Wi-Fi:
 
     Connection-specific DNS Suffix  . : home  
     Description . . . . . . . . . . . : Realtek RTL8822CE 802.11ac PCIe Adapter  
-    Physical Address. . . . . . . . . : D8-C0-A6-6E-22-31  
+    Physical Address. . . . . . . . . : xxx
     DHCP Enabled. . . . . . . . . . . : Yes  
     Autoconfiguration Enabled . . . . : Yes  
-    Link-local IPv6 Address . . . . . : fe80::4981:f4b0:1996:dfc1%12(Preferred)  
-    IPv4 Address. . . . . . . . . . . : 192.168.2.13(Preferred)  
-    Subnet Mask . . . . . . . . . . . : 255.255.255.0  
+    Link-local IPv6 Address . . . . . : xxx
+    IPv4 Address. . . . . . . . . . . : xxx.xxx.xxx.xxx(Preferred)  
+    Subnet Mask . . . . . . . . . . . : xxx
     Lease Obtained. . . . . . . . . . : Saturday, December 18, 2021 10:39:10 AM  
     Lease Expires . . . . . . . . . . : Wednesday, December 22, 2021 8:52:45 AM  
-    Default Gateway . . . . . . . . . : 192.168.2.254  
-    DHCP Server . . . . . . . . . . . : 192.168.2.254  
-    DHCPv6 IAID . . . . . . . . . . . : 148422822  
-    DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-26-DF-BD-A1-F8-0D-AC-0A-EC-52  
-    DNS Servers . . . . . . . . . . . : 192.168.2.254  
+    Default Gateway . . . . . . . . . : xxx
+    DHCP Server . . . . . . . . . . . : xxx  
+    DHCPv6 IAID . . . . . . . . . . . : xxx  
+    DHCPv6 Client DUID. . . . . . . . : xxx
+    DNS Servers . . . . . . . . . . . : xxx
     NetBIOS over Tcpip. . . . . . . . : Enabled  
 
 Bekijk wat netwerkapparatuur voor bedrijven meer kunnen doen.
