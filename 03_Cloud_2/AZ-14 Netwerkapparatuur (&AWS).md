@@ -1,6 +1,7 @@
 # Netwerkapparatuur
 
-Netwerkapparatuur, als de naam al aangeeft, is alle apparatuur die ervoor zorgt dat je meerdere systemen aan elkaar op een netwerk kan verbinden.
+Netwerkapparatuur, als de naam al aangeeft, is alle apparatuur die ervoor zorgt dat je meerdere systemen aan elkaar 
+op een netwerk kan verbinden.
 
 Netwerkapparatuur zijn onder anderen (verder in Opdrachten behandeld):
 -   Hub-> ethernet hub, network hub, repeater hub, of multiport repeater
@@ -12,12 +13,14 @@ Netwerkapparatuur zijn onder anderen (verder in Opdrachten behandeld):
 
 Netwerkapparatuur kan in samenwerken met protocollen zorgen dat jouw data de juiste endpoints kan bereiken. 
 
-OSI-model can worden gebruikt om een overzicht te krijgen van alle lagen waarop een bepaalde netwerkapparatuur interactie mee heeft. Dit kan verschillen zelfs binnen de zelfde categorie netwerkapparatuur. 
+OSI-model can worden gebruikt om een overzicht te krijgen van alle lagen waarop een bepaalde netwerkapparatuur interactie 
+mee heeft. Dit kan verschillen zelfs binnen de zelfde categorie netwerkapparatuur. 
 Ieder netwerkconcept of apparatuur heeft heeft één of meerdere cloud equivalenten.
 
 
 ## Key-terms
-**DHCP server**: Dynamic Host Configuration Protocol server zorgt automatisch ervoor dat IP adressen, default gateways en andere netwerk parameters aan de verbonden systemen worden toegewezen. 
+**DHCP server**: Dynamic Host Configuration Protocol server zorgt automatisch ervoor dat IP adressen, default gateways 
+en andere netwerk parameters aan de verbonden systemen worden toegewezen. 
 
 
 
@@ -28,7 +31,8 @@ Bestudeer:
 
 Opdrachten:  
 -   Benoem en beschrijf de functies van veel voorkomend netwerkapparatuur:
--	Meeste routers hebben een overzicht van alle verbonden apparaten, vindt deze lijst. Welke andere informatie heeft de router over aangesloten apparatuur?
+-	Meeste routers hebben een overzicht van alle verbonden apparaten, vindt deze lijst. Welke andere informatie heeft 
+    de router over aangesloten apparatuur?
 -	De standaard instellingen
 -	Waar staat je DHCP server op jouw netwerk? Wat zijn de configuraties hiervan?
 -	Bekijk wat netwerkapparatuur voor bedrijven meer kunnen doen.  
@@ -56,25 +60,45 @@ Opdrachten:
 
 Benoem en beschrijf de functies van veel voorkomend netwerkapparatuur:
 
-    -   Hub : een netwerkapparatuur dat meerdere Ethernet apparaten aan elkaar koppelt in een enkel netwerk segment. Het zorgt ervoor dat alle data die uit een port gaat (output) bij alle andere porten terecht komt (input).
+    -   Hub : een netwerkapparatuur dat meerdere Ethernet apparaten aan elkaar koppelt in een enkel netwerk segment. 
+    Het zorgt ervoor dat alle data die uit een port gaat (output) bij alle andere porten terecht komt (input).
     Een hub werkt in de 1st laag van de OSI-model, de fysieke laag.  
     Nu merendeels vervangen door network switches.
 
-    -	Switch : die apparaten op een computernetwerk met elkaar verbindt door pakketschakeling te gebruiken om gegevens te ontvangen en door te sturen naar het doelapparaat.  
-    Een netwerkswitch is een multiport network bridge die MAC-adressen gebruikt om gegevens door te sturen op de datalink (laag 2) van het OSI-model. Sommige switches kunnen ook gegevens doorsturen op de netwerklaag (laag 3) door extra routeringsfunctionaliteit in te bouwen. Dergelijke switches worden doorgaans Layer-3-switches of multilayer-switches genoemd.  
+    -	Switch : die apparaten op een computernetwerk met elkaar verbindt door pakketschakeling te gebruiken om gegevens 
+    te ontvangen en door te sturen naar het doelapparaat. Een netwerkswitch is een multiport network bridge die MAC-adressen 
+    gebruikt om gegevens door te sturen op de datalink (laag 2) van het OSI-model. Sommige switches kunnen ook gegevens 
+    doorsturen op de netwerklaag (laag 3) door extra routeringsfunctionaliteit in te bouwen. Dergelijke switches worden 
+    doorgaans Layer-3-switches of multilayer-switches genoemd.  
 
-    -	Bridge : een computernetwerkapparaat dat één gezamenlijk netwerk maakt van meerdere netwerken of netwerksegmenten. Deze functie wordt network bridging genoemd. Bridging verschilt van routing. Met routing kunnen meerdere netwerken onafhankelijk van elkaar communiceren en toch gescheiden blijven, terwijl bridging twee afzonderlijke netwerken met elkaar verbindt alsof het een enkel netwerk betreft. In het OSI-model wordt bridging uitgevoerd in de data link laag (laag 2). Als een of meer segmenten van het bridged netwerk draadloos zijn, staat het apparaat dan bekend als een wireless bridge.
+    -	Bridge : een computernetwerkapparaat dat één gezamenlijk netwerk maakt van meerdere netwerken of netwerksegmenten. 
+    Deze functie wordt network bridging genoemd. Bridging verschilt van routing. Met routing kunnen meerdere netwerken 
+    onafhankelijk van elkaar communiceren en toch gescheiden blijven, terwijl bridging twee afzonderlijke netwerken met 
+    elkaar verbindt alsof het een enkel netwerk betreft. In het OSI-model wordt bridging uitgevoerd in de data link laag 
+    (laag 2). Als een of meer segmenten van het bridged netwerk draadloos zijn, staat het apparaat dan bekend als een 
+    wireless bridge.
 
-    -	Gateway : zorgt voor interoperabiliteit tussen netwerken en bevat apparaten, zoals protocol translators, impedance matchers, rate converters, fault isolators of signal translators. Een netwerkgateway vereist de instelling van wederzijds aanvaardbare administratieve procedures tussen de netwerken die de gateway gebruiken. Netwerkgateways, bekend als protocol translation gateways of mapping gateways, kunnen protocol vertaling uitvoeren om netwerken met verschillende netwerkprotocoltechnologieën te verbinden.
-    In bedrijfsnetwerken fungeert een netwerkgateway ook als proxyserver en firewall. Gateways kunnen op elk van alle 7 lagen van de OSI-model opereren.  
+    -	Gateway : zorgt voor interoperabiliteit tussen netwerken en bevat apparaten, zoals protocol translators, impedance 
+    matchers, rate converters, fault isolators of signal translators. Een netwerkgateway vereist de instelling van wederzijds 
+    aanvaardbare administratieve procedures tussen de netwerken die de gateway gebruiken. Netwerkgateways, bekend als protocol 
+    translation gateways of mapping gateways, kunnen protocol vertaling uitvoeren om netwerken met verschillende 
+    netwerkprotocoltechnologieën te verbinden. In bedrijfsnetwerken fungeert een netwerkgateway ook als proxyserver en firewall. 
+    Gateways kunnen op elk van alle 7 lagen van de OSI-model opereren.  
 
-    -	Repeater : ontvangt een signaal verzendt deze opnieuw, het wordt herhaalt dus. Repeaters worden gebruikt om transmissies uit te breiden, zodat het signaal langere afstanden kan overbruggen of aan de andere kant van een obstructie kan worden ontvangen. Sommige typen repeaters zenden een identiek signaal uit, maar veranderen de transmissiemethode, bijvoorbeeld op een andere frequentie of baudrate.  
-    Repeaters werken op de eerste laag van de OSI-Model, de fysieke laag, omdat repeaters met het fysieke signaal en deze niet proberen te interpreteren.
+    -	Repeater : ontvangt een signaal verzendt deze opnieuw, het wordt herhaalt dus. Repeaters worden gebruikt om transmissies 
+    uit te breiden, zodat het signaal langere afstanden kan overbruggen of aan de andere kant van een obstructie kan worden 
+    ontvangen. Sommige typen repeaters zenden een identiek signaal uit, maar veranderen de transmissiemethode, bijvoorbeeld op 
+    een andere frequentie of baudrate. Repeaters werken op de eerste laag van de OSI-Model, de fysieke laag, omdat repeaters met 
+    het fysieke signaal en deze niet proberen te interpreteren.
 
-    -   Access Point : een apparaat waarmee andere Wi-Fi-apparaten verbinding kunnen maken met een wired netwerk. Als zelfstandig apparaat kan het toegangspunt een bekabelde verbinding met een router hebben, maar in een draadloze router kan het ook een integraal onderdeel van de router zelf zijn. Meestal een L2 apparaat (OSI-model) hoewel soms in praktijk werken ze ook op hogere lagen omdat ze meer funtionaliteit krijgen of ook aan een controller verbonden zijn.
+    -   Access Point : een apparaat waarmee andere Wi-Fi-apparaten verbinding kunnen maken met een wired netwerk. Als zelfstandig
+    apparaat kan het toegangspunt een bekabelde verbinding met een router hebben, maar in een draadloze router kan het ook een 
+    integraal onderdeel van de router zelf zijn. Meestal een L2 apparaat (OSI-model) hoewel soms in praktijk werken ze ook op 
+    hogere lagen omdat ze meer funtionaliteit krijgen of ook aan een controller verbonden zijn.
 
 
-Meeste routers hebben een overzicht van alle verbonden apparaten, vindt deze lijst. Welke andere informatie heeft de router over aangesloten apparatuur?
+Meeste routers hebben een overzicht van alle verbonden apparaten, vindt deze lijst. 
+Welke andere informatie heeft de router over aangesloten apparatuur?
     
     Connected devices list toont:  
             -   Name (of device)  
