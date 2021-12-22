@@ -45,7 +45,9 @@ Opdracht 2:
 -	Voer een load test uit op je server(s) om auto scaling the activeren. Er kan een delay zitten in het creëren van nieuwe VMs, afhankelijk van de settings in je VM Scale Set.
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://docs.microsoft.com/en-us/answers/questions/7989/azure-vmss-autoscale.html
+https://docs.microsoft.com/en-us/azure/load-testing/how-to-high-scale-load
+https://manpages.ubuntu.com/manpages/jammy/man1/stress-ng.1.html
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
