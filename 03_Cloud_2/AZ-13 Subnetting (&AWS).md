@@ -1,6 +1,8 @@
 # Subnetting
 
-Een subnet is een netwerk binnen een andere netwerk, meestal kleiner hoewel het ook mogelijk is om alle adressen aan alleen een subnet te besteden.
+Een subnet is een netwerk binnen een andere netwerk, meestal kleiner hoewel het ook mogelijk is om alle adressen aan alleen één subnet te besteden.
+
+Een belangrijke kenmerk van een succesvolle IPv4-subnetting-strategie is consistentie. Veel beheerders richten te veel aandacht aan de perfecte grootte te maken voor de huidige behoeften. Maar onvermijdelijk breidt het bedrijf zich uit, en die kleinere subnetten zijn niet langer groot genoeg om het toenemende aantal apparaten aan te kunnen. Een goed praktijk is om zowel voor vandaag als toekomstige netwerk- en IP-uitbreiding behoeftn te plannen.
 
 IP adressen zijn verdeeld in twee onderdelen: 
     -   een prefix/subnet mask: gedeelte van ip dat als netwerk adress wordt beschouwd.
@@ -33,14 +35,25 @@ https://docs.microsoft.com/en-us/azure/architecture/icons/
 https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
 https://www.dnsstuff.com/subnet-ip-subnetting-guide
 https://www.site24x7.com/nl/tools/ipv4-subnet-rekenmachine.html
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq
 
 ### Ervaren problemen
 Het was een leuke uitdaging om subnets en subnet calculators te begrijpen en leren hoe goed gebruik van ze te maken. Eerst had ik de Subnet Adressen verkeerd gerekend, maar dit heb ik later met verder onderzoek (youtube link bronnen) kunnen corrigeren.
 
-### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
-Plan for the future
+### Resultaat  
 
-The key to any successful IPv4 subnetting strategy is consistency. Many administrators get caught up trying to make their subnets the perfect size for current needs. Yet, inevitably, the company expands, and those smaller subnets are no longer large enough to handle the increasing number of devices that need to connect. Keep in mind that even for large companies, there are plenty of IPv4 addresses available in the RFC 1918 space. Your goal should be to plan for today as well as future network and IP expansion.
+Uitleg van gemaakte Netwerkarchitectuur:  
+Grootte van Vnet: 10.0.0.0/24 geeft 256 mogelijke IPs (2 tot de macht 8).  
+Er werd gekozen for CIDR /26 voor de subnetten om ruimte voor toekomstige groei toe te staan. CIDR /26 geeft 64 IPs per subnet, waarvan sommige ook gereserveerd moeten blijven voor bijvoorbeeld Broadcast Adres en de eerste (Subnet Adres).   Azure reserveert 5 IP adressen:    
 
-(Image: WIRACHAIPHOTO/Shutterstock)
+    x.x.x.0: netwerkadres
+    x.x.x.1: Gereserveerd door Azure voor de standaardgateway
+    x.x.x.2, x.x.x.3: Gereserveerd door Azure om de Azure DNS-IP's toe te wijzen aan de Vnet-ruimte
+    x.x.x.255: Broadcast-adres van het netwerk voor subnetten van grootte /25 en groter. Dit zal een ander adres zijn in kleinere subnetten.
+
+
+Subnetcalculator resultaten:  
+![Subnetcalculator](../00_includes/az-13.png)
+
+Opdracht netwerkarchitectuur:  
+![Network architecture](../00_includes/az-13v2.png)

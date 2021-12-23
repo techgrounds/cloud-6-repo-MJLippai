@@ -1,32 +1,26 @@
 # Azure Virtual Network
-Azure virtual networks (VNets) zijn essentieel om een prive netwerk met Azure op te kunnen richten, ze zorgen voor de verbinding tussen VMs, web apps en databases. VNets zijn vergelijkbaar met traditionele netwerks die op datacenters draaien maar hebben ook de voordelen die de infrastructuur van Azure biedt zoals makkelijk schalen, beschikbaarheid en isolatie.  
+Azure virtual networks (VNets) zijn essentieel om een prive netwerk met Azure op te kunnen richten, ze zorgen voor de verbinding tussen VMs, web apps, internet gebruikers en on-premises machines. 
 
-Azure virtual networks (VNets) zorgen ervoor dat resources als VMs, web apps en databases kunnen communiceren met elkaar, met gebruikers op het internet en met machines die on-premises staan.
+VNets zijn vergelijkbaar met traditionele netwerks die op datacenters draaien maar hebben ook de voordelen die de infrastructuur van Azure biedt zoals makkelijk schalen, beschikbaarheid en isolatie.  
 
-VNets hebben de volgende verantwoordelijkheden:
--	(Netwerk-)isolatie en -segmentatie
--	Internetcommunicatie
--	Communicatie tussen Azure resources
--	Communicatie met on-premises resources
--	Routeren van netwerkverkeer
--	Filteren van netwerkverkeer
--	Verbinden aan andere VNets
+Een Azure Virtual Network (Vnet) is een weergave van uw eigen netwerk in de cloud. Het is een logische isolatie van de Azure-cloud die aan uw abonnement is gewijd. U kunt VNets gebruiken om virtuele particuliere netwerken (VPN's) in Azure in te richten en te beheren en desgewenst de VNets te koppelen aan andere VNets in Azure, of met uw lokale IT-infrastructuur om hybride of cross-premises oplossingen te maken. Elk Vnet dat u maakt heeft zijn eigen CIDR-blok en kan worden gekoppeld aan andere VNets en lokale netwerken zolang de CIDR-blokken elkaar niet overlappen. U hebt ook controle over DNS-serverinstellingen voor VNets, en segmentatie van het Vnet in subnetten.
 
-Wanneer je een nieuw VNet aanmaakt, bepaal je een private IP range voor je netwerk. Binnen die range kan je subnets aanmaken.
+Om een Vnet te verbinden met een on-premises netwerk zijn er drie mogelijkheden:
 
-Er zijn drie manieren om je netwerk te verbinden aan een on-premises netwerk:
--	Point-to-site VPNs:
--	Het Azure VNet wordt benaderd met een VPN vanaf een on-prem computer.
--	Site-to-site VPNs:
--	De on-prem VPN device of gateway wordt verbonden met de Azure VPN Gateway. Hierdoor krijg je effectief 1 groot local network.
--	Azure Expressroute:
--	Dit is een fysieke verbinding vanaf je lokale omgeving naar Azure.
+    -   Point-to-site virtual private network (VPN): Ingesteld tussen een virtueel netwerk en één computer in uw netwerk. Elke computer die verbinding wil maken met een virtueel netwerk moet zijn verbinding configureren. Dit verbindingstype is geweldig als u net aan de slag gaat met Azure, of voor ontwikkelaars, omdat er weinig of geen wijzigingen in uw bestaande netwerk nodig zijn. De communicatie tussen uw computer en een virtueel netwerk wordt via een versleutelde tunnel via internet verzonden. 
+    -   Site-to-site VPN: Ingesteld tussen uw VPN-apparaat op locatie en een Azure VPN-gateway die in een virtueel netwerk wordt geïmplementeerd. Met dit verbindingstype kan elke lokale bron die u autoriseert toegang krijgen tot een virtueel netwerk. De communicatie tussen uw lokale VPN-apparaat en een Azure VPN-gateway wordt via een versleutelde tunnel via internet verzonden.
+    -   Ingesteld tussen uw netwerk en Azure, via een ExpressRoute-partner. Deze verbinding is privé. Het verkeer gaat niet over het internet. Hierdoor kunnen ExpressRoute-verbindingen meer betrouwbaarheid, hogere snelheden, consistente vertragingen en een hogere beveiliging bieden dan normale internetverbindingen.  
 
-Je kan ook twee Azure VNets met elkaar verbinden door middel van virtual network peering. Dit wordt mogelijk gemaakt door user-defined Routing (UDR). Peering is mogelijk met VNets in verschillende regions.
+U kunt netwerkverkeer tussen subnetten filteren door gebruik te maken van NSGs (Netwerk Security groups) or Network Virtual apparaten.  
+
+Om meerdere VMs met elkaar te verbinden in Azure kan men gebruik maken van Virtual network peering (via UDRs). De virtuele netwerken verschijnen als één voor connectiviteitsdoeleinden. Het verkeer tussen virtuele machines in peered virtuele netwerken maakt gebruik van de backbone-infrastructuur van Microsoft. Net als verkeer tussen virtuele machines in hetzelfde netwerk wordt verkeer alleen via het privénetwerk van Microsoft geleid.
+Azure steunt twee soorten VN peering: Virtual network peering (binnen zelfde regio) en Global VN peering (over meerdere regions).
 
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+**UDR**: ->User-Defined routes : U kunt aangepaste, of door de gebruiker gedefinieerde (statische) routes in Azure maken om de standaardroutes van Azure te overschrijven, of om extra routes toe te voegen aan de routeringstabel van een subnet. In Azure maakt u een routetabel en koppelt u vervolgens de routentabel aan nul of meer subnetten van het virtuele netwerk.
+**NSG**: -> Network security groups: Een stateful netwerkbeveiligingsgroep bevat beveiligingsregels die inkomend netwerkverkeer naar of uitgaand netwerkverkeer van verschillende typen Azure-bronnen toestaan of weigeren. Voor elke regel kunt u bron en bestemming, poort en protocol opgeven.
+**Stateful**: Dit betekent dat als u een inkomende poort opent, de uitgaande poort automatisch wordt geopend om het verkeer toe te staan. Uitgaande verkeer in dit geval is alleen toegestaan in gevallen dat een inkomende verzoek eraan gebonden is.
 
 ## Opdracht
 Opdracht 1:
@@ -57,10 +51,23 @@ systemctl restart apache2
 -	Controleer of je website bereikbaar is
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction?toc=/azure/virtual-network/toc.json
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+https://docs.microsoft.com/en-us/azure/virtual-network/
+https://www.illumio.com/blog/firewall-stateful-inspection
+https://cloud.google.com/vpc/docs/firewalls (comparisons)
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Geen problemen.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+VNet wordt aangemaakt:  
+![VNet Maken](../00_includes/az-15.0.png)  
+
+VM aanmaken:  
+![VM Maken](../00_includes/az-15.1.png)
+
+Website (default) testen:  
+![Server testen](../00_includes/az-15.2.png)

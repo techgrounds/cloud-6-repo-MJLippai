@@ -1,11 +1,12 @@
 # ALB_Auto Scaling
-Een van de grootste voordelen van de cloud is dat je niet hoeft te gokken hoeveel capaciteit je nodig hebt. Je kan altijd up en down schalen met on-demand services. Een van de services die dit mogelijk maakt heet Auto Scaling.
+Met Autoscale kunt u altijd de juiste hoeveelheid resources gebruiken om de eisen van uw load te verwerken. Azure biedt get dients Virtual Machine Scale sets hiervoor. Hiermee kunt u resources toevoegen om de toename van de eisen te verwerken en geld te besparen door middelen die niet actief zijn te verwijderen. U geeft een minimum en maximum aantal VMs op dat moet worden toegevoegd of verwijderd op basis van een set regels:
+	-	Scale out: CPU threshold (%), Duration in minutes (analyze metrics), hoeveel worden toegevoegd (elke keer)
+	-	Scale in: CPU threshold (%), hoeveel worden verwijderd
 
-Wanneer je applicaties runt met een spiky workload, kan je een VM Scale Set aanmaken in plaats van een enkele server. Wanneer de vraag naar de applicatie hoog is, kan Auto Scaling automatisch VMs toevoegen aan je Scale Set. Wanneer de vraag omlaag gaat, kan het ook weer instances verwijderen.
+Als u een minimum hebt, zorgt u ervoor dat uw toepassing altijd actief is, zelfs als deze niet wordt geladen. Het hebben van een maximum beperkt uw totaal mogelijke uurkosten. Het gebruiken van een VM Scale set is zeker handig als je een workload meemaakt dat ineens kan hoog toenemen en andere keren lang laag blijft (spiky).
 
-Om er zeker van te zijn dat alle VMs hetzelfde zijn, moet je een image aanwijzen tijdens het configureren van een VM Scale Set. Je kan deze image later aanpassen met de reimage optie. Auto Scaling maakt gebruik van Azure Monitor om te bepalen of er VMs toegevoegd of verwijderd moeten worden.
-
-In een traditionele architectuur maakt een client verbinding met een enkele server met een enkel publiek IP-adres. Wanneer je een fleet van servers hebt, werkt dit niet meer. Daarom kan je een load balancer gebruiken als endpoint voor de client. De load balancer zal de request forwarden naar een van de servers in je fleet en het antwoord terugsturen naar de client.
+Een load balancer kan worden gebruikt voor het gelijkmatig verdelen van de load over een groep bronnen of vms.
+Azure Load Balancer werkt op laag 4 van het Open Systems Interconnection (OSI)-model. Het is het enige endpoint voor klanten. Load Balancer verdeelt inkomende stromen die aankomen bij de front-end naar backend pool instances (instanties in een scale set of gewoon VMs) . Deze stromen zijn verdeeld volgens geconfigureerde regels van het balancer en monitoreren. 
 
 Azure heeft twee managed oplossingen voor load balancing naar een fleet van servers:
 -	Azure Load Balancer: Je krijgt deze gratis bij een VM Scale Set. De ALB werkt op laag 4 van de OSI stack (TCP/UDP). Een ALB kan alleen routeren naar Azure resources.
@@ -13,7 +14,10 @@ Azure heeft twee managed oplossingen voor load balancing naar een fleet van serv
 
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+**public load balancer** : kan uitgaande verbindingen bieden voor virtuele machines (VM's) binnen uw virtuele netwerk. Deze verbindingen worden tot stand gebracht door hun privé IP-adressen te vertalen naar publieke IP-adressen. Public Load Balancers worden gebruikt om het internetverkeer naar uw VM's in evenwicht te brengen.  
+
+**private load balancer** : Wordt gebruikt waar private IP's alleen op de frontend nodig zijn. Interne load balancers worden gebruikt om verkeer binnen een virtueel netwerk in evenwicht te brengen. Een frontend van een load balancer is toegankelijk vanuit een netwerk op locatie in een hybride scenario.  
+
 
 ## Opdracht
 Opdracht 1
@@ -50,7 +54,30 @@ https://docs.microsoft.com/en-us/azure/load-testing/how-to-high-scale-load
 https://manpages.ubuntu.com/manpages/jammy/man1/stress-ng.1.html
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Moest manieren uitzoeken om stress test uit te voeren binnen het VM zelf, dus zonder het gebruik van Azure Load testing (wij hebben de benodigde role hiervoor niet - Load Test Contributor). 
 
-### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+### Resultaat  
+
+Settings VM scale set:  
+![VM Scale setting](../00_includes/az-16.png)  
+
+Creation VM Scale set:  
+![VM Scale set](../00_includes/az-16.1.png)  
+
+Inbound Security Rules:  
+![Inbound Security Rules](../00_includes/az-16.2.png)  
+
+Testing Server:  
+![Testing Server](../00_includes/az-16.3.png)
+
+Stress Test met comman stress-ng:  
+![stress-ng](../00_includes/az-16.4.png)
+
+Resultaat van stress test op aantal instanties in scale set:  
+![VMinstanties](../00_includes/az-16.5.png)
+
+Grafiek Percentage CPU met Max aggregatie:  
+![MaxAggregation](../00_includes/az-16.6.png)
+
+Grafiek Percentage CPU met Sum aggregatie:  
+![SumAggregation](../00_includes/az-16.7.png)
