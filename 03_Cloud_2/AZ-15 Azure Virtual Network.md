@@ -1,6 +1,5 @@
 # Azure Virtual Network
-Azure virtual networks (VNets) zijn essentieel om een prive netwerk met Azure op te kunnen richten. Het werkt op een vergelijkbaar manier als een traditionele netwerk die op datacenter zou werken maar heeft ook de voordelen die de infrastructuur van Azure biedt zoals makkelijk schalen, beschikbaarheid en isolatie.
-
+Azure virtual networks (VNets) zijn essentieel om een prive netwerk met Azure op te kunnen richten, ze zorgen voor de verbinding tussen VMs, web apps en databases. VNets zijn vergelijkbaar met traditionele netwerks die op datacenters draaien maar hebben ook de voordelen die de infrastructuur van Azure biedt zoals makkelijk schalen, beschikbaarheid en isolatie.  
 
 Azure virtual networks (VNets) zorgen ervoor dat resources als VMs, web apps en databases kunnen communiceren met elkaar, met gebruikers op het internet en met machines die on-premises staan.
 
