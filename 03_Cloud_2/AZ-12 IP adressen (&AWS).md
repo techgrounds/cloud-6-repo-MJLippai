@@ -3,7 +3,7 @@ IP-addressen zorgen ervoor dat meerdere endpoints elkaar kunnen lokaliseren, het
 Met publieke IP-adressen kunnen internetbronnen binnenkomende naar Azure-bronnen communiceren. Prive IP-adressen worden gebruikt zodat endpoints binnen een netwerk met elkaar kunnen communiceren.
 
 Er zijn twee soorten IP-adressen:
-IPv4: heeft 32 bits (4 bytes) en heeft de volgende vorm: 82.169.176.78. > iedere blok is 1 byte. Er zijn meer dan 4 biljoen addressen mogelijk en deze raken eventueel op (eigenlijk al).
+**IPv4**: heeft 32 bits (4 bytes) en heeft de volgende vorm: 82.169.176.78. > iedere blok is 1 byte. Er zijn meer dan 4 biljoen addressen mogelijk en deze raken eventueel op (eigenlijk al).
 
 **IPv6** : heeft 128-bits en gerepresenteert als acht groepen van vier hexadecimale digits die door dubbele punten zijn gescheiden. Theoretisch zijn er 3.4×1038 IPv6 addressen mogelijk. Er zijn naar de totaal aantal adressen ook andere voordelen van IPv6 :
     -   hiërarchische adres allocatie methoden dat die routelaggregatie via internet faciliteert en dus de  de uitbreiding van routingtabellen beperkt 

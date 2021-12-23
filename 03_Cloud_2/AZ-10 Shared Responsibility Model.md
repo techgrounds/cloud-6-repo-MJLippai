@@ -29,6 +29,8 @@ Bestudeer:
 https://docs.microsoft.com/NL-NL/azure/security/fundamentals/shared-responsibility
 
 https://www.nist.gov/news-events/news/2011/10/final-version-nist-cloud-computing-definition-published
+https://docs.microsoft.com/nl-nl/azure/architecture/framework/security/overview 
+
 ### Ervaren problemen
 Geen.
 

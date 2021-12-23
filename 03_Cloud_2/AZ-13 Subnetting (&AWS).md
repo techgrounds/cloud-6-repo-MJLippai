@@ -9,7 +9,7 @@ IP adressen zijn verdeeld in twee onderdelen:
     -   host address range: bits die gereserveerd zijn voor de host.
 
 Kleinste subnet die Azure ondersteunt in vorm van CIDR notation: /29
-Kleinste subnet die AWS ondersteint: /28 
+Kleinste subnet die AWS ondersteunt: /28 
 
 
 ## Key-terms
