@@ -51,7 +51,7 @@ De vaardigheden die door de exam worden bevestigd zijn:
 -   bescrijving algemene en netwerk beveiliging opties (10-15%)
 -   bescrijving identiteit, nakoming, privacy en bestuur opties (15-20%)
 -   bescrijving Azure cost management en SLAs (10-15%)
-
+(Zie Key Terms)
 
 ### Gebruikte bronnen
 Skills Measured document : https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY

@@ -6,7 +6,7 @@ Elke cloud provided heeft een onderliggende fysieke infrastructuur. De globale i
 
 Klanten kunnen zelf hun regio selecteren. Dit kan wel soms invloed hebben tot welke services ze toegaan hebben en het opzetten van virtuele machine scale sets.
 
-Niet gebonden is aan regio : Azure Subscriptions , Azure Open Datasets, Power BI Embedded.  
+Niet gebonden is aan regio : Azure Subscriptions, Azure Open Datasets, Power BI Embedded.  
 
 Wel gebonden aan regio: Azure Bot Services, Health Bot, Microsoft Genomics, Azure Purview.
 

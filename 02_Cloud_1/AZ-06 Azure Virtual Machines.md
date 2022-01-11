@@ -39,9 +39,11 @@ systemctl restart apache2
 
 ### Gebruikte bronnen
 https://docs.microsoft.com/nl-nl/azure/virtual-machines/linux/overview
+https://www.geeksforgeeks.org/difference-between-virtual-machines-and-containers/
+https://www.cbtnuggets.com/blog/certifications/cloud/container-v-hypervisor-whats-the-difference
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Geen Problemen.
 
 ### Resultaat
 Opdracht 1.1 VM ip adres:
