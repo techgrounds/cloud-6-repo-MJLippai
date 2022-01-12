@@ -1,12 +1,12 @@
 # App Service
-Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends.
+Azure App Service is een HTTP-service voor het hosten van webapplicaties, REST-API's en mobiele back-ends.
 
-By making use of Azure App service you can take advantage of some key benefits generally associated with Azure such as security, load balancing, autoscaling, and automated management. 
+Door gebruik te maken van de Azure App-service kunt u profiteren van een aantal voordelen die doorgaans met Azure worden geassocieerd, zoals beveiliging, taakverdeling, automatische aanpassing en geautomatiseerd beheer.
 
-Azure App overview:
+Azure App overzicht:
 ![App service overview](../00_includes/az-18.0v2.png)  
 
-When to use Azure App Service:
+Wanneer gebruike te maken van Azure App Service:
 
 ![Selecting Service](../00_includes/az-18.png)  
 

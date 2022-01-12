@@ -15,10 +15,6 @@ Azure DNS is based on Azure Resource Manager, which provides features such as:
 
     Resource locking to lock a subscription, resource group, or resource. Locking prevents other users in your organization from accidentally deleting or modifying critical resources.
 
-    
-DNSSEC
-
-Azure DNS does not currently support DNSSEC. In most cases, you can reduce the need for DNSSEC by consistently using HTTPS/TLS in your applications. If DNSSEC is a critical requirement for your DNS zones, you can host these zones with third-party DNS hosting providers.
 
 Ease of use
 

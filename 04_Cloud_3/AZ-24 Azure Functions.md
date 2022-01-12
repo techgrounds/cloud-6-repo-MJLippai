@@ -5,4 +5,4 @@
 [Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://docs.microsoft.com/en-us/learn/modules/explore-azure-functions/
