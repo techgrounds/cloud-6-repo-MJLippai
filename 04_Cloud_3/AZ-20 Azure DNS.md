@@ -1,41 +1,30 @@
 # Azure DNS 
 
-Azure DNS is a hosting service for DNS domains that provides name resolution by using Microsoft Azure infrastructure. By hosting your domains in Azure, you can manage your DNS records by using the same credentials, APIs, tools, and billing as your other Azure services.
+Azure DNS is een hostingservice voor DNS-domeinen die naamomzetting biedt via de Microsoft Azure-infrastructuur. Door uw domeinen in Azure te hosten, kunt u uw DNS-records beheren met dezelfde referenties, API's, tools en facturering als uw andere Azure-services.
 
-Reliability and performance
-DNS domains in Azure DNS are hosted on Azure's global network of DNS name servers. Azure DNS uses anycast networking. Each DNS query is answered by the closest available DNS server to provide fast performance and high availability for your domain.
+DNS-domeinen in Azure DNS worden gehost op het wereldwijde netwerk van DNS-naamservers van Azure. Azure DNS maakt gebruik van anycast-netwerken. Elke DNS-query wordt beantwoord door de dichtstbijzijnde beschikbare DNS-server om snelle prestaties en hoge beschikbaarheid voor uw domein te bieden.
 
-Security
+Azure DNS is gebaseerd op Azure Resource Manager, en biedt dus de volgende functies:
 
-Azure DNS is based on Azure Resource Manager, which provides features such as:
+    Azure role-based access control (Azure RBAC) om te bepalen wie toegang heeft tot specifieke acties voor uw organisatie.
 
-    Azure role-based access control (Azure RBAC) to control who has access to specific actions for your organization.
+    Activiteitenlogboeken om te controleren hoe een gebruiker in uw organisatie een resource heeft gewijzigd of om een fout te vinden bij het oplossen van problemen.
 
-    Activity logs to monitor how a user in your organization modified a resource or to find an error when troubleshooting.
+    Resource locking om een abonnement, resourcegroep of resource te vergrendelen. Locking voorkomt dat andere gebruikers in uw organisatie per ongeluk belangrijke bronnen verwijderen of wijzigen.
 
-    Resource locking to lock a subscription, resource group, or resource. Locking prevents other users in your organization from accidentally deleting or modifying critical resources.
+DNS-facturering is gebaseerd op het aantal DNS-zones dat wordt gehost in Azure en op het aantal DNS-query's dat is ontvangen.
 
+Uw domeinen en records kunnen worden beheerd met behulp van de Azure-portal, de Azure PowerShell-cmdlets en de Azure-CLI voor meerdere platforms. Toepassingen waarvoor geautomatiseerd DNS-beheer nodig is, kunnen met de service worden geïntegreerd met behulp van de REST-API en SDK's.
 
-Ease of use
+Andere Azure DNS eigdenschappen:
 
-Azure DNS can manage DNS records for your Azure services and provide DNS for your external resources as well. Azure DNS is integrated in the Azure portal and uses the same credentials, support contract, and billing as your other Azure services.
+    -   Aanpasbare virtuele netwerken met privédomeinen
 
-DNS billing is based on the number of DNS zones hosted in Azure and on the number of DNS queries received. To learn more about pricing, see Azure DNS pricing.
+    -   Alias records : U kunt een alias-record gebruiken om te verwijzen naar een Azure-resource, zoals een publiek IP-adres van Azure, een Azure Traffic Manager-profiel of een Azure Content Delivery Network (CDN)-eindpunt.
 
-Your domains and records can be managed by using the Azure portal, Azure PowerShell cmdlets, and the cross-platform Azure CLI. Applications that require automated DNS management can integrate with the service by using the REST API and SDKs.
-
-Customizable virtual networks with private domains
-
-Azure DNS also supports private DNS domains. This feature allows you to use your own custom domain names in your private virtual networks rather than the Azure-provided names available today.
-
-Alias records
-
-Azure DNS supports alias record sets. You can use an alias record set to refer to an Azure resource, such as an Azure public IP address, an Azure Traffic Manager profile, or an Azure Content Delivery Network (CDN) endpoint. If the IP address of the underlying resource changes, the alias record set seamlessly updates itself during DNS resolution. The alias record set points to the service instance, and the service instance is associated with an IP address.
-
-Also, you can now point your apex or naked domain to a Traffic Manager profile or CDN endpoint using an alias record. An example is contoso.com.
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://docs.microsoft.com/en-us/azure/cdn/cdn-overview
