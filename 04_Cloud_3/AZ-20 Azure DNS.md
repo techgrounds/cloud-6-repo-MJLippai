@@ -27,4 +27,5 @@ Andere Azure DNS eigdenschappen:
 
 
 ### Gebruikte bronnen
-https://docs.microsoft.com/en-us/azure/cdn/cdn-overview
+
+https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns
