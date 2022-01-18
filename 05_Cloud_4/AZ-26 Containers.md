@@ -41,7 +41,4 @@ https://docs.microsoft.com/en-us/azure/container-instances/container-instances-o
 https://azure.microsoft.com/en-us/topic/kubernetes-vs-docker/  
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
-
-### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Geen

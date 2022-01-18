@@ -1,5 +1,5 @@
 # Azure Advisor
-Advisor analyzes your resource settings and usage data to recommend solutions based on a number of areas. 
+Advisor analyzes your resource settings and usage data to recommend solutions based on a number of areas. The recommendation service includes suggested actions you can take right away, postpone, or dismiss. The recommendation service includes suggested actions you can take right away, postpone, or dismiss.
 
 Recommendations are provided in five categories (seemlingly linked to WAF):
     -   Reliability 
