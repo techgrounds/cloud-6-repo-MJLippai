@@ -11,7 +11,7 @@ for i in field_names:
 
 
 # open the file in the write mode, in this example this will only work if the file already exists. Possible to write it in a way that it checks if it already exits.
-with open('cloud-6-repo-MJLippai/06_Python_01/csv/dict.csv', 'a', newline='') as f:
+with open('cloud-6-repo-MJLippai/08_Python_01/csv/dict.csv', 'a', newline='') as f:
     # create the csv writer
     writer = csv.DictWriter(f, fieldnames = field_names)
 
