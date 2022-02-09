@@ -9,9 +9,7 @@ The output should be:
 9
 '''
 for i in range(10):
-	if i < 5:
+	if i < 5 or i > 7 :
 		print(i)
-	elif i > 7:
-		print(i)
-	else:			
+	else:
 		continue
