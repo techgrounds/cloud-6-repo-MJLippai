@@ -10,6 +10,7 @@ Use the input() function to ask the user of your script for their name. If the n
 Create a new script.
 Ask the user of your script for a number. Give them a response based on whether the number is higher than, lower than, or equal to 100.
 
+Make the game repeat until the user inputs 100.
 ### Used sources 
 
 Experience gained from edx.org
