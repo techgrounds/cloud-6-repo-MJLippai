@@ -14,10 +14,10 @@ In v1.1 this document will also contain the adjustments and improvements togethe
 ## Deliverable
 
 Deployment Order:  
-![Deployment](../../../00_includes/deployorder_v1.png)
+![Deployment](../../../../00_includes/deployorder_v1.png
 
 Project V1.0 Diagram:  
-![Deployment](../../../00_includes/prj_v1_diagram.png)
+![Deployment](../../../../00_includes/prj_v1_diagram.png)
 
 NSG Rules:  
     -   Rule admin_trust creates a list of approved IP addresses based on the provided information during deployment. RDP Only.  
