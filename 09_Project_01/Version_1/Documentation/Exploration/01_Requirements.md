@@ -32,5 +32,5 @@ A list describing all the finalized requirements:
     -   Availabe budget for the project is both 130 euros for the development of the IAC, and 
         as a monthly cost for the client.
  
-Improvements to architecture can be made according to documenation, but priority is on established requirements.  
-Any improvements made, with approval from the Product Owner will be included in the [Decisions](../Version_1.0/Decisions.md) document.
+Improvements to architecture can be made according to documenation, but priority was set on providing a MVP for V1.0, with V1.1 focusing more on improvement.  
+All decisions should be based on above requirements, and will be included in the [Decisions](../Version_1.0/Decisions.md) document.
