@@ -80,6 +80,7 @@ module storeboot 'modules/storeboot.bicep' = {
   params:{
     environment: environment
     location: location
+    versiontag: versiontag
     kvult: vaultmod.outputs.kvurl_out
     manindentity: vaultmod.outputs.manidentityID_out
   }
