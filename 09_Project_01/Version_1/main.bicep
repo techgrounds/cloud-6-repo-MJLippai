@@ -1,6 +1,6 @@
 // Resource group must be createdon Subcription level. Modules are then deployed with the created resource group as their scope.
 targetScope = 'subscription'
-param rsgname string = 'rsgprojectv1.05-${environment}'
+param rsgname string = 'rsgprojectv1.0-${environment}'
 
 // Home/Office IP that will have access to admin server. Current value was for testing, please update. If multiple IPs need to be giving access, please simply add a list to this array.
 param admintrust array = [

@@ -1,8 +1,10 @@
+// outputs from other modules or main bicep file parameters.
 param environment string
 param location string
 param versiontag object
 
-param vaultname string = 'kv-${uniqueString(resourceGroup().id)}'
+// various parameters named, with specific naming conventations referencing their purpose.
+param vaultname string = 'kv${environment}-${uniqueString(resourceGroup().id)}'
 param tenantsubid string = subscription().tenantId
 param diskencrypsetname string = 'encrypset${environment}'
 param managedidname string = 'iden-${environment}'
