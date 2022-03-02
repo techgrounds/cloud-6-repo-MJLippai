@@ -16,8 +16,11 @@ In v1.1 this document will also contain the adjustments and improvements togethe
 Deployment order and the decision on how to split the project up into modules was based on grouped dependencies and order of deployment.  
 
 Deployment Order:  
-![Deployment](../../../../00_includes/deployorder_v1.png)
+![Deployment](../../../../00_includes/deployorder_v1.png)  
 
+Overview of modules and their dependencies (VS visualizer):  
+![Dependencies](../../../../00_includes/mod_dependencies.png)  
+  
 The project diagram has not changed much from the one provided as the priority for v1.0 was to deliver a MVP. As we understand it v1.1 will focus more
 on possible improvements.  
 Project V1.0 Diagram:  
