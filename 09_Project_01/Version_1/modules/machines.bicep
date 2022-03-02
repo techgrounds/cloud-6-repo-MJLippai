@@ -14,7 +14,9 @@ param vm_win_admin_name string = 'vm-admin${environment}'
 param pubkey string
 param passadmin string 
 
-var script64 = loadFileAsBase64('../bootstrapscript/zscript.sh') // sample boostrap script. Adjust corresponding script to adjust Userdata or provide new path.
+// sample boostrap script loaded as base64 encoding. Adjust corresponding script to adjust Userdata or provide new path.
+var script64 = loadFileAsBase64('../bootstrapscript/zscript.sh') 
+
 
 resource vm_lin_webserv_sym_link 'Microsoft.Compute/virtualMachines@2021-11-01' = {
   name: vm_lin_webserv_name

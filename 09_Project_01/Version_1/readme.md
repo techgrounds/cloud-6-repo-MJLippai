@@ -32,14 +32,14 @@ was in broad strokes meant to contain:
 For complete details the project please look to the following deliverables.  
 
 Exploration:  
- [Requirements](../Documentation/Exploration/01_Requirements.md)  
- [Assumptions](../Documentation/Exploration/02_Assumptions.md)  
- [Services](../Documentation/Exploration/03_Services.md)  
+ [Requirements](./Documentation/Exploration/01_Requirements.md)  
+ [Assumptions](./Documentation/Exploration/02_Assumptions.md)  
+ [Services](./Documentation/Exploration/03_Services.md)  
   
 Implementation:  
-[Decisions](../Documentation/Implementation/Decisions.md)  
-[Design](../Documentation/Implementation/Design.md)  
-[Instructions](../Documentation/Implementation/Instructions.md)  
+[Decisions](./Documentation/Implementation/Decisions.md)  
+[Design](./Documentation/Implementation/Design.md)  
+[Instructions](./Documentation/Implementation/Instructions.md)  
   
 ## Sources and solutions
 ----
