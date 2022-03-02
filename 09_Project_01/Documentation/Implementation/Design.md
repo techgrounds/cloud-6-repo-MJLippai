@@ -20,6 +20,6 @@ Project V1.0 Diagram:
 ![Deployment](../../../00_includes/prj_v1_diagram.png)
 
 NSG Rules:  
-    -   Rule admin_trust creates a list of approved IP addresses based on the provided information during deployment. RDP Only.
-    -   Rule https_in_webnsg and http_in_webnsg provide access to webserver from internet on Ports 443 and 80.
-    -   Rule nsg_webrules provide SSH access ONLY from admin to webserver via private IPs linked from deployed NICs.
+    -   Rule admin_trust creates a list of approved IP addresses based on the provided information during deployment. RDP Only.  
+    -   Rule https_in_webnsg and http_in_webnsg provide access to webserver from internet on Ports 443 and 80.  
+    -   Rule nsg_webrules provide SSH access ONLY from admin to webserver via private IPs linked from deployed NICs.  
