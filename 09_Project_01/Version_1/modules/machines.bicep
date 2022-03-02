@@ -1,5 +1,5 @@
 
-
+// outputs from other modules or main bicep file parameters.
 param environment string 
 param location string
 param diskencryptId string
