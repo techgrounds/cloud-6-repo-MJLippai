@@ -1,4 +1,4 @@
-## Decisions
+## Goal
 Decribe your considerations, decisions and the reasoning behind them. 
 
 ---

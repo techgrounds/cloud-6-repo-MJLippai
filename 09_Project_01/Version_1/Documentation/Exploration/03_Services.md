@@ -1,4 +1,4 @@
-## Doel
+## Goal
 As a team we want a clear overview of the Cloud Infrastructure required.
 
 ----
