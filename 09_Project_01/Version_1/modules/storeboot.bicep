@@ -1,11 +1,11 @@
-//outputs from other modules or main bicep file parameters
+// outputs from other modules or main bicep file parameters.
 param location string
 param environment string
 param manindentity string
 param kvult string // keyvaulturi
 param versiontag object
 
-//filename bootstrap script in storage account
+// filename bootstrap script in storage account.
 param filename string = 'scriptby.sh'
 
 param store_name string = 'stvm${environment}${uniqueString(resourceGroup().id)}'
@@ -14,7 +14,7 @@ param containerName string = 'bootstrap'
 @description('UTC timestamp used to create distinct deployment scripts for each deployment')
 param utcValue string = utcNow()
 
-
+// deploymentcript uploads the bootstrap script into the encrypted storage account.
 resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
   name: 'deployscript-upload-blob-${utcValue}'
   tags: versiontag
