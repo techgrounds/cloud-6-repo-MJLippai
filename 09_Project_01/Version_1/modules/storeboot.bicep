@@ -3,6 +3,7 @@ param location string
 param environment string
 param manindentity string
 param kvult string // keyvaulturi
+param versiontag object
 
 //filename bootstrap script in storage account
 param filename string = 'scriptby.sh'
@@ -16,6 +17,7 @@ param utcValue string = utcNow()
 
 resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
   name: 'deployscript-upload-blob-${utcValue}'
+  tags: versiontag
   location: location
   kind: 'AzureCLI'
   properties: {
@@ -44,9 +46,7 @@ resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
 resource store_sym_link 'Microsoft.Storage/storageAccounts@2021-08-01' = {
   name: store_name
   location: location
-  tags: {
-    projectv: 'one'
-  }
+  tags: versiontag
   sku: {
     name: 'Standard_RAGRS'
   }
