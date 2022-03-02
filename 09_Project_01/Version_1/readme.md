@@ -23,11 +23,11 @@ complications, primarily circular dependencies.
 In short the project was meant to provide IAC that could launch the corresponding architecture with one command. The architecture  
 was in broad strokes meant to contain:
 
-    -   an encrypted web and admin server on seperate availability zones.
-    -   2 peered vnets, each with a NSG protected subnet, which in turn contain one of the vms each.
-    -   an encrypted storage container containing a bootstrap script.
-    -   recovery vault for backups.
-    -   key vault to enable encryptions.
+-   an encrypted web and admin server on seperate availability zones.
+-   2 peered vnets, each with a NSG protected subnet, which in turn contain one of the vms each.
+-   an encrypted storage container containing a bootstrap script.
+-   recovery vault for backups.
+-   key vault to enable encryptions.
 
 For complete details the project please look to the following deliverables.  
 
