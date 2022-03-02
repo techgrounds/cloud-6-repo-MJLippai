@@ -37,8 +37,8 @@ Exploration:
  [Services](./Documentation/Exploration/03_Services.md)  
   
 Implementation:  
+[Design](./Documentation/Implementation/Design.md)  - > See visual overviews of Project V1.0.
 [Decisions](./Documentation/Implementation/Decisions.md)  
-[Design](./Documentation/Implementation/Design.md)  
 [Instructions](./Documentation/Implementation/Instructions.md)  
   
 ## Sources and solutions
