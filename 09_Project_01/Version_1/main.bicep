@@ -22,6 +22,10 @@ resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   location : location
 }
 
+/* 
+Network module includes 2 peered vnets, each with a nsg protected subnet. Nsg rules to allow web traffic to webserver, and only SSH
+from admin to webserver through private ips. Also 2 Nics for the two VMs deployed later on.
+*/
 module networkmod 'modules/network.bicep' = {
   name: 'network_module'
   scope: resourcegproject
@@ -33,6 +37,10 @@ module networkmod 'modules/network.bicep' = {
   }
 }
 
+/* 
+Vault module includes vault, key, encryption set and user managed identity which will allow the storage account to be encrypted as well with cmk.
+Required accesspolicies are also added to the vault.
+*/
 module vaultmod 'modules/vault_key.bicep' = {
   name: 'vault_key_module'
   scope: resourcegproject
@@ -43,6 +51,10 @@ module vaultmod 'modules/vault_key.bicep' = {
   }
 }
 
+/* 
+Linux web server and windows admin server are deployed in the machines module, making use of resources deployed from above listed
+modules.
+*/
 module machines 'modules/machines.bicep' = {
   name: 'machine_module'
   scope: resourcegproject
@@ -58,6 +70,10 @@ module machines 'modules/machines.bicep' = {
   }
 }
 
+/* 
+Storage account is created and a deployment script is used to upload the bootstrap script to an encrypted storage account.
+Storage account makes use of user managed identity (and vault) to allow encryption through cmk.
+*/
 module storeboot 'modules/storeboot.bicep' = {
   name: 'storeboot_module'
   scope: resourcegproject
@@ -69,6 +85,9 @@ module storeboot 'modules/storeboot.bicep' = {
   }
 }
 
+/* 
+Recovery vault is created, a specific backup policy is set up and backup items are created with said backup policy.
+*/
 module recover 'modules/recovery.bicep' = {
   name: 'recovery_module'
   scope: resourcegproject
