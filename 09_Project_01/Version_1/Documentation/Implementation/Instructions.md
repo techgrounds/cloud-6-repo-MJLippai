@@ -21,7 +21,7 @@ Required information by the client parameter file [zparam](../../zparam.json):
 -   *Critical*: pubkey - string : replace sample key with a public ssh key in ssh-rsa format for testing. However preferably use same syntax used in parameter 'passadmin'  
     to refer to a  in an established vault.
 -   *Critical*: passadmin - string: point to an password in your vault. Do not save your password in parameter file. For testing purposes you could simply declare a value here.  
--   *Critical*: objectIDuser - string : enter objectID of admin user of Azure portal that should have full access allowed to manage resource via portal. To retrieve ObjectID there are a number of [options](https://docs.microsoft.com/en-us/cli/azure/ad/user?view=azure-cli-latest).
+-   *Critical*: objectIDuser - string : enter objectID of admin user of Azure portal that should have full access policies to manage Vault resources. To retrieve ObjectID there are a number of [options](https://docs.microsoft.com/en-us/cli/azure/ad/user?view=azure-cli-latest).
 
 
 -   environment - string : a value to describe the type of environment, this value is later added to various resources names as part of the naming convention.
