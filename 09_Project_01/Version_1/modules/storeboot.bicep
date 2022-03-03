@@ -8,7 +8,7 @@ param versiontag object
 // filename bootstrap script in storage account.
 param filename string = 'serveron.sh'
 
-param store_name string = 'stvm${environment}-${uniqueString(resourceGroup().id)}'
+param store_name string = 'stvm${environment}${uniqueString(resourceGroup().id)}'
 param containerName string = 'bootstrap'
 
 @description('UTC timestamp used to create distinct deployment scripts for each deployment')
