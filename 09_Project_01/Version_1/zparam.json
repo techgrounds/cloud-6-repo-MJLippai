@@ -13,14 +13,14 @@
       }
     },
     "rsgname": {
-      "value": "rsgprojectv1.0" 
+      "value": "rsgprojectv1.16" 
     },
     "passadmin": { 
       "reference": {
           "keyVault": {
-          "id": "/subscriptions/<subscription-id>/resourceGroups/<resgrpname>/providers/Microsoft.KeyVault/vaults/<vault-name>"
+          "id": "/subscriptions/d326aae5-f87d-4f4c-90c3-34b20471a947/resourceGroups/SupportGroup/providers/Microsoft.KeyVault/vaults/supportvault155"
                     },
-          "secretName": "<secret-name>"
+          "secretName": "admintest"
       }
               
     },
