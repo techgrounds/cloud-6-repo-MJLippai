@@ -18,8 +18,9 @@ that must be provided by the clients for proper testing.
 
 Required information by the client parameter file [zparam](../../zparam.json):
 -   *Critical*: admintrust : should include the list of ips approved for access to the admin server. Even for testing this needs to be adjusted.
--   *Critical*: pubkey - string : replace sample key with a public ssh key in ssh-rsa format.
--   *Critical*: passadmin - string: replace sample password for the Windows admin.
+-   *Critical*: pubkey - string : replace sample key with a public ssh key in ssh-rsa format for testing. However preferably use same syntax used in parameter 'passadmin'  
+    to refer to a  in an established vault.
+-   *Critical*: passadmin - string: point to an password in your vault. Do not save your password in parameter file. For testing purposes you could simply declare a value here.  
 
 -   environment - string : a value to describe the type of environment, this value is later added to various resources names as part of the naming convention.
 -   version tag - object : a key and a value to set as tag for all resouces in the form = project_version: '1.0'
