@@ -91,7 +91,7 @@ module storeboot 'modules/storeboot.bicep' = {
   }
 }
 
-/* 
+/*
 Recovery vault is created, a specific backup policy is set up and backup items are created with said backup policy.
 */
 module recover 'modules/recovery.bicep' = {
