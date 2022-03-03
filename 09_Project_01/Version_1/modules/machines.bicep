@@ -7,6 +7,9 @@ param nic_id_admin string
 param nic_id_webserver string
 param versiontag object
 
+param vm_admin_size string = 'Standard_B1s'
+param vm_webserver_size string = 'Standard_B1s'
+
 param vm_lin_webserv_name string = 'vm-webserv-${environment}'
 param vm_win_admin_name string = 'vm-admin${environment}'
 
@@ -28,7 +31,7 @@ resource vm_lin_webserv_sym_link 'Microsoft.Compute/virtualMachines@2021-11-01' 
   properties: {
     userData: script64
     hardwareProfile: {
-      vmSize: 'Standard_B1s'
+      vmSize: vm_webserver_size
     }
     storageProfile: {
       imageReference: {
@@ -102,7 +105,7 @@ resource vm_win_admin_sym_link 'Microsoft.Compute/virtualMachines@2021-11-01' = 
   ]
   properties: {
     hardwareProfile: {
-      vmSize: 'Standard_B1s'
+      vmSize: vm_admin_size
     }
     storageProfile: {
       imageReference: {

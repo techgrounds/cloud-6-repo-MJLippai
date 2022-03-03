@@ -6,8 +6,5 @@
 
 # Sample key data
 
-09_Project_01/Version_1/Keys/linwebkey.pub
-09_Project_01/Version_1/Keys/admin_pass.txt
-09_Project_01/Version_1/modules/zparam.json
 09_Project_01/Version_1/TestKeys/admin_pass.txt
 09_Project_01/Version_1/TestKeys/linwebkey.pub

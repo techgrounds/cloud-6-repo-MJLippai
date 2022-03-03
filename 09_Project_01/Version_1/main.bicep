@@ -1,6 +1,6 @@
-// Resource group must be createdon Subcription level. Modules are then deployed with the created resource group as their scope.
+// Resource group must be created on Subcription level. Modules are then deployed with the created resource group as their scope.
 targetScope = 'subscription'
-param rsgname string = 'rsgprojectv1.0-${environment}'
+param rsgname string = 'rsgprojectv1.0test'
 
 // Home/Office IP that will have access to admin server. Current value was for testing, please update. If multiple IPs need to be giving access, please simply add a list to this array.
 param admintrust array = [
@@ -11,11 +11,14 @@ param admintrust array = [
 param pubkey string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
 param passadmin string = loadTextContent('./TestKeys/admin_pass.txt') // sample test data
 
+
 param environment string = 'test'
 param location string = deployment().location 
 param versiontag object = {
   project_version: '1.0'
 }
+param vm_admin_size string = 'Standard_B1s'
+param vm_webserver_size string = 'Standard_B1s'
 
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name : rsgname
@@ -64,6 +67,8 @@ module machines 'modules/machines.bicep' = {
     location: location
     pubkey: pubkey
     passadmin: passadmin
+    vm_admin_size: vm_admin_size
+    vm_webserver_size: vm_webserver_size
     diskencryptId: vaultmod.outputs.diskencrypt_IDout
     nic_id_admin: networkmod.outputs.nic_admin_out
     nic_id_webserver: networkmod.outputs.nic_webserver_out
@@ -88,7 +93,7 @@ module storeboot 'modules/storeboot.bicep' = {
 
 /* 
 Recovery vault is created, a specific backup policy is set up and backup items are created with said backup policy.
-*/
+
 module recover 'modules/recovery.bicep' = {
   name: 'recovery_module'
   scope: resourcegproject
@@ -102,4 +107,4 @@ module recover 'modules/recovery.bicep' = {
     vm_admin_NAME_in: machines.outputs.vm_admin_NAME_out
   }
 }
-
+*/
