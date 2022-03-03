@@ -3,9 +3,7 @@ targetScope = 'subscription'
 param rsgname string = 'rsgprojectv1.0test'
 
 // Home/Office IP that will have access to admin server. Current value was for testing, please update. If multiple IPs need to be giving access, please simply add a list to this array.
-param admintrust array = [
-  '82.169.176.78'
-]
+param admintrust array
 
 // Sample key data, please adjust the urls to point to a new location or simply provide the data as a string.
 param pubkey string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
@@ -19,7 +17,7 @@ param versiontag object = {
 param vm_admin_size string = 'Standard_B1s'
 param vm_webserver_size string = 'Standard_B1s'
 
-//enter objectID of admin user of Azure portal that should have full access policies to manage Vault resources.
+//objectID of admin user of Azure portal that should have full access policies to manage Vault resources.
 param objectIDuser string
 
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
