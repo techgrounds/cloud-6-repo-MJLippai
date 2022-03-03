@@ -11,7 +11,6 @@ param admintrust array = [
 param pubkey string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
 param passadmin string = loadTextContent('./TestKeys/admin_pass.txt') // sample test data
 
-
 param environment string = 'test'
 param location string = deployment().location 
 param versiontag object = {
@@ -19,7 +18,9 @@ param versiontag object = {
 }
 param vm_admin_size string = 'Standard_B1s'
 param vm_webserver_size string = 'Standard_B1s'
-param objectIDuser string = '176f8a4b-086b-4432-b804-1e123c04855b'
+
+//enter objectID of admin user of Azure portal that should have full access policies to manage Vault resources.
+param objectIDuser string
 
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name : rsgname
