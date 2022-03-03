@@ -9,7 +9,7 @@ param tenantsubid string = subscription().tenantId
 param diskencrypsetname string = 'encrypset${environment}'
 param managedidname string = 'iden-${environment}'
 param policyoperation string = 'add'
-
+param objectIDuser string
 
 resource vault_sym_link 'Microsoft.KeyVault/vaults@2021-11-01-preview' = {
   name: vaultname
@@ -24,7 +24,7 @@ resource vault_sym_link 'Microsoft.KeyVault/vaults@2021-11-01-preview' = {
     accessPolicies: [
       {
         tenantId: tenantsubid
-        objectId: '176f8a4b-086b-4432-b804-1e123c04855b'
+        objectId: objectIDuser
         permissions: {
           keys: [
             'get'

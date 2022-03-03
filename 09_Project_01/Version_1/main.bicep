@@ -19,6 +19,7 @@ param versiontag object = {
 }
 param vm_admin_size string = 'Standard_B1s'
 param vm_webserver_size string = 'Standard_B1s'
+param objectIDuser string = '176f8a4b-086b-4432-b804-1e123c04855b'
 
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name : rsgname
@@ -51,6 +52,7 @@ module vaultmod 'modules/vault_key.bicep' = {
     versiontag: versiontag
     location: location
     environment: environment
+    objectIDuser: objectIDuser
   }
 }
 
@@ -107,4 +109,3 @@ module recover 'modules/recovery.bicep' = {
     vm_admin_NAME_in: machines.outputs.vm_admin_NAME_out
   }
 }
-
