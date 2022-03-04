@@ -263,3 +263,49 @@ Hope to get some feedback tomorrow with a review of my code delivery of V1.0.
 
 ## - Learnings -
 What should be included in documentation and what to avoid.  
+
+----
+# Log [01/03/2022]
+
+## - Daily report -
+Setting up of a parameter file so client only has to change files in one place.
+
+## - Challenges -
+Mainly have been working in Bicep so far and parameter is in Json, which has other syntax etc and have had limited experience with.
+
+## - Solutions -
+Learn to work with Json through documentation.
+
+## - Learnings -
+Limitations and how to create parameter file.
+
+----
+# Log [02/03/2022]
+
+## - Daily report -
+Finalizing and testing of parameter file and updating documentation.
+
+## - Challenges -
+Calling secrets within parameter file in Json syntax.
+
+## - Solutions -
+Investigate documentation.
+
+## - Learnings -
+What should go into parameter file and how to declare it.
+
+----
+# Log [03/03/2022]
+
+## - Daily report -
+Assisting others with project, discussing Rubrics and improvements to code with Product Owner and applying minor changes. Also adding maing ObjectID of main user as critical parameter that requires entering and adjusting documentation.
+
+## - Challenges -
+No real challenge with the minor changes.
+
+## - Solutions -
+Apply feedback from Product Owner, get feedbackback from cohorts. Make changes accordingly.
+
+## - Learnings -
+How to improve Githu repo to make it more readable.
+
