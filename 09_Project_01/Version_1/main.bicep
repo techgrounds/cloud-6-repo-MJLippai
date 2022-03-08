@@ -108,3 +108,4 @@ module recover 'modules/recovery.bicep' = {
     vm_admin_NAME_in: machines.outputs.vm_admin_NAME_out
   }
 }
+

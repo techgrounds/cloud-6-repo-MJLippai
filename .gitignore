@@ -8,3 +8,8 @@
 
 09_Project_01/Version_1/TestKeys/admin_pass.txt
 09_Project_01/Version_1/TestKeys/linwebkey.pub
+09_Project_01/Version_1/testing/deploy.bicep
+09_Project_01/Version_1/testing/deploy.json
+09_Project_01/Version_1/testing/deploy22.json
+09_Project_01/Version_1/testing/gen_pw.bicep
+09_Project_01/Version_1/testing/mtest.bicep
