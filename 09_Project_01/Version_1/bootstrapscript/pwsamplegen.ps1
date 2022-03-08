@@ -44,6 +44,7 @@ function Get-RandomPassword {
 }
 $samplekey=$(Get-RandomPassword 12)
 
+
 $secretvalue = ConvertTo-SecureString $samplekey -AsPlainText -Force
 
-Set-AzKeyVaultSecret -VaultName "supportvault155" -Name "ExamplePassword" -SecretValue $secretvalue
+$secret = Set-AzKeyVaultSecret -VaultName "supportvault155" -Name "ExamplePassword2" -SecretValue $secretvalue
