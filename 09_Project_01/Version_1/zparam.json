@@ -13,20 +13,16 @@
       }
     },
     "rsgname": {
-      "value": "rsgprojectv1.119" 
-    },
-    "objectIDuser": {
-      "value": "176f8a4b-086b-4432-b804-1e123c04855b"
+      "value": "rsgprojectv1.1101" 
     },
     "passadmin": { 
       "reference": {
           "keyVault": {
-          "id": "[resourceId(parameters('vaultSubscription'), parameters('vaultResourceGroupName'), 'Microsoft.KeyVault/vaults', parameters('vaultName'))]"
+          "id": "/subscriptions/d326aae5-f87d-4f4c-90c3-34b20471a947/resourceGroups/SupportGroup/providers/Microsoft.KeyVault/vaults/supportvault155"
                     },
           "secretName": "admintest"
-      }
-              
-    },
+        }
+      },
     "pubkey": {
       "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNEQdZcYrWAM9n6flIBlS7kNLfazmdTzPtBWyYepHj4oDjlzHisHBLGlNkT3DM6YF/LBbUKg2n47fhDWscv4hX7U8Gzfk/T7X6IveHMgZXz0tKMY2TryZQ1PZDzduxRWJfLDAuagVrYgynghb5hG/Quj9Zu9O0V/dT/qkyOpRErn37eyzEBYmmWmaUWaNWB3oKSH+/DpalLy1yYE3/SMIVd+Eil7EeUD3zueO+t7WbryhnNLD2T6oIx4Y8WQ6GjWEuPVCDVoB1JObN5ENPcvodcCWB3J/TMxaRmswnkiKKY44gwI/6U0+j+wXLnliyueZSL2HzRKEKyDeA+k8UHUXaOT7Sxadq/yJEMyShdEq4RLxoUkp4XdVYITJPfHSvaA8HFmBtGkccUSzorKDYSSCGrOvevU75AZXq9/eOX2EA6I2yzsyT0aQnxeeuh3vPI62fFW04fIlbk4O2+LildQ2IkAJ2MwMxQ6dS4pTH1tzn3TWMZhkYpI0iw+vLmQV+gFk="
     },
