@@ -21,7 +21,7 @@
     "passadmin": { 
       "reference": {
           "keyVault": {
-          "id": "/subscriptions/d326aae5-f87d-4f4c-90c3-34b20471a947/resourceGroups/SupportGroup/providers/Microsoft.KeyVault/vaults/supportvault155"
+          "id": "[resourceId(parameters('vaultSubscription'), parameters('vaultResourceGroupName'), 'Microsoft.KeyVault/vaults', parameters('vaultName'))]"
                     },
           "secretName": "admintest"
       }

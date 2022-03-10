@@ -170,4 +170,6 @@ resource accesspsym_link 'Microsoft.KeyVault/vaults/accessPolicies@2021-10-01' =
 
 output diskencrypt_IDout string = diskencrypsetsym_link.id
 output kvurl_out string = vault_sym_link.properties.vaultUri
+output kvname_out string = vault_sym_link.name
 output manidentityID_out string = managedidsym_link.id
+output kvfull object = vault_sym_link

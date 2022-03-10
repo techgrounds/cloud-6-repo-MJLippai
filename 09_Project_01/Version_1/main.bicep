@@ -7,7 +7,7 @@ param admintrust array
 
 // Sample key data, please adjust the urls to point to a new location or simply provide the data as a string.
 param pubkey string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
-param passadmin string = loadTextContent('./TestKeys/admin_pass.txt') // sample test data
+
 
 param environment string = 'test'
 param location string = deployment().location 
@@ -19,6 +19,9 @@ param vm_webserver_size string = 'Standard_B1s'
 
 //objectID of admin user of Azure portal that should have full access policies to manage Vault resources.
 param objectIDuser string
+
+@secure()
+param kvpass string
 
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name : rsgname
@@ -67,7 +70,7 @@ module machines 'modules/machines.bicep' = {
     versiontag: versiontag
     location: location
     pubkey: pubkey
-    passadmin: passadmin
+    kvpass: kvpass
     vm_admin_size: vm_admin_size
     vm_webserver_size: vm_webserver_size
     diskencryptId: vaultmod.outputs.diskencrypt_IDout
@@ -91,7 +94,6 @@ module storeboot 'modules/storeboot.bicep' = {
     manindentity: vaultmod.outputs.manidentityID_out
   }
 }
-
 /*
 Recovery vault is created, a specific backup policy is set up and backup items are created with said backup policy.
 */
