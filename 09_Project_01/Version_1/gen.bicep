@@ -2,7 +2,7 @@ targetScope = 'resourceGroup'
 //param rsgnamesec string = 'rsgprojectv1.0gen'
 param utcValue string = utcNow()
 param location string = resourceGroup().location 
-param vaultname string = 'kvgen-${uniqueString(resourceGroup().id)}'
+param vaultname string = 'kvgen245245425'
 param tenantsubid string = subscription().tenantId
 
 param managedidname string = 'iden-gen'
@@ -119,20 +119,20 @@ resource accesspsym_link 'Microsoft.KeyVault/vaults/accessPolicies@2021-10-01' =
 }
 
 resource assignrole1 'Microsoft.Authorization/roleAssignments@2020-10-01-preview' = {
-  name: 'assigncontributor'
+  name: guid(subscription().id, 'assigncontributor')
   properties: {
     principalId: managedgen_sym_link.properties.principalId
     principalType: 'User'
-    roleDefinitionId: 'b24988ac-6180-42a0-ab88-20f7382dd24c'
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b24988ac-6180-42a0-ab88-20f7382dd24c')
   }
 }
 
 resource assignrole2 'Microsoft.Authorization/roleAssignments@2020-10-01-preview' = {
-  name: 'assignmanagedoperator'
+  name: guid(subscription().id, 'assignmanagedoperator')
   properties: {
     principalId: managedgen_sym_link.properties.principalId
     principalType: 'User'
-    roleDefinitionId: 'f1a07417-d97a-45cb-824c-7a7467783830'
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'f1a07417-d97a-45cb-824c-7a7467783830')
   }
 }
 
@@ -153,9 +153,13 @@ resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
     environmentVariables: [
       {
         name: 'kvname'
-        value: vault_sym_gen_link.name
+        value: '${vault_sym_gen_link.name}'
       }
     ]
-    primaryScriptUri: 'https://raw.githubusercontent.com/techgrounds/cloud-6-repo-MJLippai/main/09_Project_01/Version_1/bootstrapscript/pwsamplegen.ps1'
+    primaryScriptUri: 'https://raw.githubusercontent.com/techgrounds/cloud-6-repo-MJLippai/main/09_Project_01/Version_1/bootstrapscript/pwgen.ps1'
   }
+  dependsOn:[
+    assignrole1
+    assignrole2
+  ]
 }
