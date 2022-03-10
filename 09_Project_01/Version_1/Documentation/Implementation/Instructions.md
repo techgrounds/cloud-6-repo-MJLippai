@@ -20,8 +20,7 @@ Required information by the client parameter file [zparam](../../zparam.json):
 -   *Critical*: admintrust : should include the list of ips approved for access to the admin server. Even for testing this needs to be adjusted.
 -   *Critical*: pubkey - string : replace sample key with a public ssh key in ssh-rsa format for testing. However preferably use same syntax used in parameter 'passadmin'  
     to refer to a  in an established vault.
--   *Critical*: passadmin - string: point to an password in your vault. Do not save your password in parameter file. For testing purposes you could simply declare a value here.  
--   *Critical*: objectIDuser - string : enter objectID of admin user of Azure portal that should have full access policies to manage Vault resources. To retrieve ObjectID there are a number of [options](https://docs.microsoft.com/en-us/cli/azure/ad/user?view=azure-cli-latest).
+-   *Critical*: passadmin - string: point to an password in your vault. Ideally do not save your password in parameter file. For testing purposes you could simply declare a value here.  
 
 
 -   environment - string : a value to describe the type of environment, this value is later added to various resources names as part of the naming convention.
@@ -44,9 +43,8 @@ Of interest:
 
 Deploying the IAC:
 -   First login with command 'az login' assuming you are using Azure CLI.
--   Once ready to deploy simply use the folowing command to start deployment : az deployment sub create -l {location} -f {path to main bicep file} -p{path to parameter} 
-    Complete command : az deployment sub create -l westeurope -f main.bicep -p zparam.json
--   For clarification westeurope (-l or also --location parameters) can be replaced by your desired location of deployment. 
+-   Once ready to deploy simply use the folowing command to start deployment : ./deploy.ps1
+-   For clarification westeurope (-l or also --location parameters) can be replaced by your desired location of deployment in the deploy.ps1 file. 
     Keeping in mind this will be used for all concurrently deployed resources.
 
 For instructions on producing same results with Powershell : [PS deployment](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell)
