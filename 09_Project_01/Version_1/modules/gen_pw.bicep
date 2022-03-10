@@ -17,11 +17,7 @@ resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
     timeout: 'PT5M'
     retentionInterval: 'PT1H'
     environmentVariables: [
-      {
-        name: 'vaultname'
-        value: kvname
-      }
     ]
-    primaryScriptUri: 'https://raw.githubusercontent.com/techgrounds/cloud-6-repo-MJLippai/main/09_Project_01/Version_1/bootstrapscript/pwgen.ps1'
+    primaryScriptUri: 'https://raw.githubusercontent.com/techgrounds/cloud-6-repo-MJLippai/main/09_Project_01/Version_1/bootstrapscript/pwgenadd.ps1'
   }
 }
