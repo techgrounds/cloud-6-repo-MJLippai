@@ -7,7 +7,7 @@ param admintrust array
 
 // Sample key data, please adjust the urls to point to a new location or simply provide the data as a string.
 param pubkey string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
-
+param passadmin string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
 
 param environment string = 'test'
 param location string = deployment().location 
@@ -70,7 +70,7 @@ module machines 'modules/machines.bicep' = {
     versiontag: versiontag
     location: location
     pubkey: pubkey
-    kvpass: kvpass
+    passadmin: passadmin
     vm_admin_size: vm_admin_size
     vm_webserver_size: vm_webserver_size
     diskencryptId: vaultmod.outputs.diskencrypt_IDout

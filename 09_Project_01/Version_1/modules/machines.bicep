@@ -15,9 +15,9 @@ param vm_win_admin_name string = 'vm-admin${environment}'
 
 // Sample key data, please adjust the urls to point to a new location or simply provide the data as a string.
 param pubkey string
+param passadmin string 
 
-@secure()
-param kvpass string
+
 
 // sample boostrap script loaded as base64 encoding. Adjust corresponding script to adjust Userdata or provide new path.
 var script64 = loadFileAsBase64('../bootstrapscript/zscript.sh') 
@@ -132,7 +132,7 @@ resource vm_win_admin_sym_link 'Microsoft.Compute/virtualMachines@2021-11-01' = 
     osProfile: {
       computerName: vm_win_admin_name
       adminUsername: '${vm_win_admin_name}user'
-      adminPassword: kvpass
+      adminPassword: passadmin
       windowsConfiguration: {
         provisionVMAgent: true
         enableAutomaticUpdates: true
