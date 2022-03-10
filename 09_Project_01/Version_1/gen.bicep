@@ -2,7 +2,7 @@ targetScope = 'resourceGroup'
 //param rsgnamesec string = 'rsgprojectv1.0gen'
 param utcValue string = utcNow()
 param location string = resourceGroup().location 
-param vaultname string = 'kvgen245245425'
+param vaultname string = 'kvgen2635635'
 param tenantsubid string = subscription().tenantId
 
 param managedidname string = 'iden-gen'
@@ -122,7 +122,7 @@ resource assignrole1 'Microsoft.Authorization/roleAssignments@2020-10-01-preview
   name: guid(subscription().id, 'assigncontributor')
   properties: {
     principalId: managedgen_sym_link.properties.principalId
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b24988ac-6180-42a0-ab88-20f7382dd24c')
   }
 }
@@ -131,7 +131,7 @@ resource assignrole2 'Microsoft.Authorization/roleAssignments@2020-10-01-preview
   name: guid(subscription().id, 'assignmanagedoperator')
   properties: {
     principalId: managedgen_sym_link.properties.principalId
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'f1a07417-d97a-45cb-824c-7a7467783830')
   }
 }
@@ -151,12 +151,8 @@ resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
     timeout: 'PT5M'
     retentionInterval: 'PT1H'
     environmentVariables: [
-      {
-        name: 'kvname'
-        value: '${vault_sym_gen_link.name}'
-      }
     ]
-    primaryScriptUri: 'https://raw.githubusercontent.com/techgrounds/cloud-6-repo-MJLippai/main/09_Project_01/Version_1/bootstrapscript/pwgen.ps1'
+    primaryScriptUri: 'https://raw.githubusercontent.com/techgrounds/cloud-6-repo-MJLippai/main/09_Project_01/Version_1/bootstrapscript/pwgen115.ps1'
   }
   dependsOn:[
     assignrole1

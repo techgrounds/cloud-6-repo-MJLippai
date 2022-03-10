@@ -47,4 +47,4 @@ $samplekey=$(Get-RandomPassword 12)
 
 $secretvalue = ConvertTo-SecureString $samplekey -AsPlainText -Force
 
-Set-AzKeyVaultSecret -VaultName "kvgen245245425" -Name "ExamplePassword8" -SecretValue $secretvalue
+Set-AzKeyVaultSecret -VaultName "kvgen2635635" -Name "ExamplePassword8" -SecretValue $secretvalue
