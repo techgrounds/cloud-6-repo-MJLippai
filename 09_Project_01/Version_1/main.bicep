@@ -20,9 +20,6 @@ param vm_webserver_size string = 'Standard_B1s'
 //objectID of admin user of Azure portal that should have full access policies to manage Vault resources.
 param objectIDuser string
 
-@secure()
-param kvpass string
-
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name : rsgname
   location : location
@@ -96,7 +93,7 @@ module storeboot 'modules/storeboot.bicep' = {
 }
 /*
 Recovery vault is created, a specific backup policy is set up and backup items are created with said backup policy.
-*/
+
 module recover 'modules/recovery.bicep' = {
   name: 'recovery_module'
   scope: resourcegproject
@@ -110,4 +107,4 @@ module recover 'modules/recovery.bicep' = {
     vm_admin_NAME_in: machines.outputs.vm_admin_NAME_out
   }
 }
-
+*/

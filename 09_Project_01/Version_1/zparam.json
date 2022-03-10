@@ -36,6 +36,9 @@
     },
     "vm_webserver_size": {
       "value": "Standard_B1s"
+    },
+    "objectIDuser": {
+      "value": "tobereplaced"
     }
   }  
 }
