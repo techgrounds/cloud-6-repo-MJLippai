@@ -17,7 +17,7 @@ resource rsg_pgen_sym_link 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   tags: versiontag
 }
 
-module pgen 'pgenmod.bicep' = {
+module pgen 'modules/pgenmod.bicep' = {
   scope: rsg_pgen_sym_link
   name: 'pgenmod'
   params: {
