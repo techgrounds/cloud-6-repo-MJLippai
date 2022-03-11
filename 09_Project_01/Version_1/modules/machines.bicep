@@ -15,7 +15,9 @@ param vm_win_admin_name string = 'vm-admin${environment}'
 
 // Sample key data, please adjust the urls to point to a new location or simply provide the data as a string.
 param pubkey string
-param passadmin string 
+
+@secure()
+param passadmin string
 
 
 

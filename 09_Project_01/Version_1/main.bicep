@@ -7,7 +7,8 @@ param admintrust array
 
 // Sample key data, please adjust the urls to point to a new location or simply provide the data as a string.
 param pubkey string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
-param passadmin string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
+
+//param passadmin string = loadTextContent('./TestKeys/linwebkey.pub') // sample test data
 
 param environment string = 'test'
 param location string = deployment().location 
@@ -19,10 +20,17 @@ param vm_webserver_size string = 'Standard_B1s'
 
 //objectID of admin user of Azure portal that should have full access policies to manage Vault resources.
 param objectIDuser string
+param kvg_name string
 
 resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name : rsgname
   location : location
+  tags: versiontag
+}
+
+resource kv_pass_sym_link 'Microsoft.KeyVault/vaults@2021-11-01-preview' existing = {
+  name: kvg_name
+  scope: resourceGroup('pgengroup-test')
 }
 
 /* 
@@ -67,7 +75,7 @@ module machines 'modules/machines.bicep' = {
     versiontag: versiontag
     location: location
     pubkey: pubkey
-    passadmin: passadmin
+    passadmin: kv_pass_sym_link.getSecret('ExamplePassword15')
     vm_admin_size: vm_admin_size
     vm_webserver_size: vm_webserver_size
     diskencryptId: vaultmod.outputs.diskencrypt_IDout
