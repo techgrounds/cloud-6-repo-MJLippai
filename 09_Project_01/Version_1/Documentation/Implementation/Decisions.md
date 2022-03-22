@@ -1,9 +1,9 @@
 ## Goal
-Decribe your considerations, decisions and the reasoning behind them. 
+Describe your considerations, decisions and the reasoning behind them. 
 
 ---
 ## Epic
-Verson 1.0 
+Version 1.0 
 
 ---
 ## Description

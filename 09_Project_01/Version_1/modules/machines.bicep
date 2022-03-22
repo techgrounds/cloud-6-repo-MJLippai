@@ -32,7 +32,7 @@ resource vm_lin_webserv_sym_link 'Microsoft.Compute/virtualMachines@2021-11-01' 
     '2'
   ]
   properties: {
-    userData: script64
+
     hardwareProfile: {
       vmSize: vm_webserver_size
     }
@@ -58,6 +58,7 @@ resource vm_lin_webserv_sym_link 'Microsoft.Compute/virtualMachines@2021-11-01' 
       dataDisks: []
     }
     osProfile: {
+      customData: script64
       computerName: vm_lin_webserv_name
       adminUsername: '${vm_lin_webserv_name}user'
       adminPassword: null

@@ -24,7 +24,7 @@ Required information by the client parameter file [zparam](../../zparam.json):
 
 
 -   environment - string : a value to describe the type of environment, this value is later added to various resources names as part of the naming convention.
--   version tag - object : a key and a value to set as tag for all resouces in the form = project_version: '1.0'
+-   version tag - object : a key and a value to set as tag for all resources in the form = project_version: '1.0'
 -   rsgname - string : a value to describe your Resource group.
 -   vm_admin_size - string : provide a size for your windows admin server.
 -   vm_webserver_size - string : provide a size for your linux web server.
@@ -34,16 +34,16 @@ Required information by the client parameter file [zparam](../../zparam.json):
 Of interest:  
 -   Parameter 'rsgname' : Be aware that a number of other variables use the corresponding resource ID to generate a unique value. Default value is fine for testing.
 -   Parameter 'environment' is currently set to 'test' and is used for the many other naming conventions. Change if needed but keep simple -> keep in 
-    mind some naming restrictions (depending on the resource) could derail deployment if there are dissapproved characters or if it becomes too long etc.
--   Parameter 'versiontag' is currenly set to 'project_version: 1.0' and will be applied this to all resources deployed within the group. Some child   
+    mind some naming restrictions (depending on the resource) could derail deployment if there are disapproved characters or if it becomes too long etc.
+-   Parameter 'versiontag' is currently set to 'project_version: 1.0' and will be applied this to all resources deployed within the group. Some child   
     resources do not require or accept a tag.
 -   Parameter 'location' is currently set to the location of the deployment. This is applied to the resource group created and in turn all resources deployed within..
--   Bootstrapscript is looaded from file zscipt.sh, in folder bootstrapscript. If you want to change the script please change it here as it is the same file
+-   Bootstrapscript is loaded from file zscipt.sh, in folder bootstrapscript. If you want to change the script please change it here as it is the same file
     uploaded to the encrypted storage account.  
 
 Deploying the IAC:
 -   First login with command 'az login' assuming you are using Azure CLI.
--   Once ready to deploy simply use the folowing command to start deployment : ./deploy.ps1
+-   Once ready to deploy simply use the following command to start deployment : ./deploy.ps1
 -   For clarification westeurope (-l or also --location parameters) can be replaced by your desired location of deployment in the deploy.ps1 file. 
     Keeping in mind this will be used for all concurrently deployed resources.
 

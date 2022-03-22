@@ -298,14 +298,101 @@ What should go into parameter file and how to declare it.
 # Log [03/03/2022]
 
 ## - Daily report -
-Assisting others with project, discussing Rubrics and improvements to code with Product Owner and applying minor changes. Also adding maing ObjectID of main user as critical parameter that requires entering and adjusting documentation.
-
-## - Challenges -
-No real challenge with the minor changes.
-
-## - Solutions -
-Apply feedback from Product Owner, get feedbackback from cohorts. Make changes accordingly.
+Delivering v1.0 to TG and getting feedback. Mainly positive.
 
 ## - Learnings -
-How to improve Githu repo to make it more readable.
+Making small edits to code based on TG feedback, mainly about documentation.
 
+----
+# Log [04/03/2022]
+
+## - Daily report -
+Waiting to receive full v1.1 requirements, focused on helping classmates and small improvements on code with naming and such.
+Got some partial information so started focusing on documentation for load balancers and autoscaling.
+
+## - Challenges -
+Mainly documentation review, no challenges.
+
+----
+
+# Log [07/03/2022]
+
+## - Daily report -
+Received feedback from Gerard, Sentia buddy, on my delivered v1.0. Going through suggestions on how to improve my code.
+Received full v1.1 requirements, started to review and visualize changes to be made.
+
+## - Challenges -
+Automate the entering of the ObjectId, the pw generation and vault and starting to use ps1 files to simplify the deployment.
+
+## - Solutions -
+Making use of ps1 combines with Powershell commands.
+
+## - Learnings -
+Learning to use ps1 files and various PS1 files where to workaround bicep limitations.
+
+----
+# Log [08/03/2022]
+
+## - Daily report -
+Due to AD restrictions options to retrieve ObjectId were limited. Also started to plan out v1.1 requirements. Looking into loadbalancers and how to
+apply them.
+
+## - Challenges -
+Ad limitations. Http to Https redirect with a plain loadbalancer has to be done on the server.
+
+## - Solutions -
+Service research.
+
+## - Learnings -
+Various options when it comes to loadbalancing in Azure.
+
+----
+# Log [09/03/2022]
+
+## - Daily report -
+Wanted to make the password generation automated, spent day working out a solution that would fill the specific pw requirements.
+Continued to research v1.1 requirements. 
+
+## - Challenges -
+For the password to be used in later deployments as a secret, it needs to be first generated and stored on higher level or earlier deployment. 
+
+
+## - Solutions -
+For the meantime I've chosen to do automation of pw generation and storing as seperate deployment.
+
+## - Learnings -
+PS code to generate passwords with specific requirements, then storing through use of a deployment script resource.
+
+----
+# Log [10/03/2022]
+
+## - Daily report -
+Completed all feedback received from Sentia to improve v1.0.
+Requirements of project do not allow for use of normal loadbalancer as Product owner does not want the Http to Https redirect to 
+happen on the server. Starting to work and research Application Gateways instead.
+
+## - Challenges -
+Application gateways have special NSG rule requirements among others. Lot of settings need to be specifically dialed to avoid issues reaching and communicating with servers.
+
+## - Solutions -
+Investigating Application gateways.
+
+## - Learnings -
+How to configure App gateway to allow for http-> https redirect.
+
+----
+# Log [11/03/2022]
+
+## - Daily report -
+Presentations day, going through groupmates projects. Reviewing and making last edits to v1.0.
+
+## - Challenges -
+None.
+
+## - Solutions -
+-
+
+## - Learnings -
+Some interesting examples from group class mates on using loops to launch resources.
+
+----

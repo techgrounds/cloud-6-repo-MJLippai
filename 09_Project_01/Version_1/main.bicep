@@ -31,7 +31,7 @@ resource resourcegproject 'Microsoft.Resources/resourceGroups@2021-04-01' = {
 //keyvault generated in through first bicep deployment by way of file pgen.main.bicep
 resource kv_pass_sym_link 'Microsoft.KeyVault/vaults@2021-11-01-preview' existing = {
   name: kvg_name
-  scope: resourceGroup('pgengroup-test')
+  scope: resourceGroup('pgengroup115-test')
 }
 
 /* 
@@ -102,7 +102,7 @@ module storeboot 'modules/storeboot.bicep' = {
 }
 /*
 Recovery vault is created, a specific backup policy is set up and backup items are created with said backup policy.
-*/
+
 module recover 'modules/recovery.bicep' = {
   name: 'recovery_module'
   scope: resourcegproject
@@ -116,4 +116,4 @@ module recover 'modules/recovery.bicep' = {
     vm_admin_NAME_in: machines.outputs.vm_admin_NAME_out
   }
 }
-
+*/
