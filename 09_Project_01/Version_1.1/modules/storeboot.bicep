@@ -61,7 +61,7 @@ resource store_sym_link 'Microsoft.Storage/storageAccounts@2021-08-01' = {
   properties: {
     defaultToOAuthAuthentication: false
     allowCrossTenantReplication: false
-    minimumTlsVersion: 'TLS1_0'
+    minimumTlsVersion: 'TLS1_2'
     allowBlobPublicAccess: false
     allowSharedKeyAccess: true
     networkAcls: {
